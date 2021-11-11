@@ -1,0 +1,41 @@
+<html>
+<head>
+    <title>Detect Mediator Installed or not</title>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.8.1.min.js"></script>
+	<script>
+	
+	function getUrl(){
+	    return "vetrisepacs://open/?uid=1.2.840.1136982020092203061143927.303&c=ZidbsoHtq7Swso9ez7aX6jkmO0kQN3ic";
+    }
+	var timeout;
+	window.addEventListener('blur',function(e){
+		window.clearTimeout(timeout);
+	});
+
+	$(document).ready(function(){
+		$("#launch").click(function(e){
+			
+			timeout = window.setTimeout(function() {
+			  console.log('timeout');
+			  location.href="installer/setup.msi";
+			}, 1000);
+
+			location.href=getUrl();
+			e.preventDefault();
+		});
+	});
+	
+	
+	</script>
+	
+</head>
+<body>
+
+<button id="launch">Launch Viewer</button>
+<p>
+    Click above button, it will automatically launch the mediator.
+    if mediator is not already installed, installer will be downloaded.
+    Please install the application and click the above button again to open the Viewer.
+</p>
+</body>
+</html>

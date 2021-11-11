@@ -1,0 +1,148 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{E4D1301B-91A0-4CF2-9FE0-CF72DCEDF6C1}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>VETRIS.Core</RootNamespace>
+    <AssemblyName>VETRIS.Core</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.IO.Compression" />
+    <Reference Include="System.IO.Compression.FileSystem" />
+    <Reference Include="System.Net" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Net.Http.Formatting, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AP\AdhocPaymentHead.cs" />
+    <Compile Include="AP\RadiologistPayment.cs" />
+    <Compile Include="AP\TranscriptionistPayment.cs" />
+    <Compile Include="Case\CaseStudy.cs" />
+    <Compile Include="CommonFunctions.cs" />
+    <Compile Include="CoreCommon.cs" />
+    <Compile Include="Dashboard\Dashboard.cs" />
+    <Compile Include="DownloadRouter\DownloadRouter.cs" />
+    <Compile Include="HouseKeeping\Broadcast.cs" />
+    <Compile Include="HouseKeeping\DRLog.cs" />
+    <Compile Include="HouseKeeping\DRStatus.cs" />
+    <Compile Include="HouseKeeping\MissingStudy.cs" />
+    <Compile Include="HouseKeeping\RadiologistActivity.cs" />
+    <Compile Include="HouseKeeping\StudyAuditTrail.cs" />
+    <Compile Include="HouseKeeping\UnlockUser.cs" />
+    <Compile Include="HouseKeeping\WriteBackRecord.cs" />
+    <Compile Include="InterFaxSender.cs" />
+    <Compile Include="Invoicing\ARFeeSchedule.cs" />
+    <Compile Include="Invoicing\ARInvoiceProcess.cs" />
+    <Compile Include="Invoicing\AROpeningBalance.cs" />
+    <Compile Include="Invoicing\ARStudyAmendment.cs" />
+    <Compile Include="Invoicing\BillCycle.cs" />
+    <Compile Include="Invoicing\ChargesDiscount.cs" />
+    <Compile Include="Invoicing\FeeScheduleTemplate.cs" />
+    <Compile Include="Invoicing\FreeCredit.cs" />
+    <Compile Include="Invoicing\InvoiceParams.cs" />
+    <Compile Include="Invoicing\InvoiceProcess.cs" />
+    <Compile Include="Invoicing\InvoiceStatement.cs" />
+    <Compile Include="Invoicing\Promotion.cs" />
+    <Compile Include="Invoicing\StudyAmendment.cs" />
+    <Compile Include="Login\Login.cs" />
+    <Compile Include="MailSender.cs" />
+    <Compile Include="Master\BillingAccount.cs" />
+    <Compile Include="Master\Breeds.cs" />
+    <Compile Include="Master\BusinessSources.cs" />
+    <Compile Include="Master\MasterQuery.cs" />
+    <Compile Include="Master\Radiologist.cs" />
+    <Compile Include="Master\SalesPerson.cs" />
+    <Compile Include="Master\Institution.cs" />
+    <Compile Include="Master\Modality.cs" />
+    <Compile Include="Master\Physician.cs" />
+    <Compile Include="Master\Services.cs" />
+    <Compile Include="Master\Species.cs" />
+    <Compile Include="Master\StudyType.cs" />
+    <Compile Include="Master\Technician.cs" />
+    <Compile Include="Master\Transciptionist.cs" />
+    <Compile Include="MyPayments\ARPayments.cs" />
+    <Compile Include="MyPayments\ARRefunds.cs" />
+    <Compile Include="Profile\BillingAccount.cs" />
+    <Compile Include="Profile\Institution.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Radiologist\AssignStudy.cs" />
+    <Compile Include="Radiologist\Group.cs" />
+    <Compile Include="Radiologist\ProductivityScheduling.cs" />
+    <Compile Include="Radiologist\Scheduling.cs" />
+    <Compile Include="Registration\Registration.cs" />
+    <Compile Include="Reports\Report.cs" />
+    <Compile Include="Settings\AbnormalRptReasons.cs" />
+    <Compile Include="Settings\AccessRights.cs" />
+    <Compile Include="Settings\CaseNotificationRules.cs" />
+    <Compile Include="Settings\CaseNotificationRulesOld.cs" />
+    <Compile Include="Settings\Configuration.cs" />
+    <Compile Include="Settings\GLCodeMapping.cs" />
+    <Compile Include="Settings\PromotionReasons.cs" />
+    <Compile Include="Settings\ReportDisclaimerReasons.cs" />
+    <Compile Include="Settings\User.cs" />
+    <Compile Include="Settings\UserRole.cs" />
+    <Compile Include="Study\DCMStudy.cs" />
+    <Compile Include="Study\ProcessImage.cs" />
+    <Compile Include="Translations\GoogleTranslation.cs" />
+    <Compile Include="Translations\TranslationResponse.cs" />
+    <Compile Include="TransNationalPaymentGateway\GatewayResponse.cs" />
+    <Compile Include="TransNationalPaymentGateway\GatwayRequest.cs" />
+    <Compile Include="TransNationalPaymentGateway\PaymentApi.cs" />
+    <Compile Include="TransNationalPaymentGateway\TransactionVault.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\VETRIS.DAL\VETRIS.DAL.csproj">
+      <Project>{7a1dd809-2158-49cf-99c7-1a90fd60ab20}</Project>
+      <Name>VETRIS.DAL</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

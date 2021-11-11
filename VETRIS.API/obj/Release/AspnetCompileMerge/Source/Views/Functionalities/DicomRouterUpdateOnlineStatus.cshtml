@@ -1,0 +1,117 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>DICOM Router Update Online Status</title>
+    <link rel="shortcut icon" type="image/x-icon" href="../favicon.ico" />
+    <link href="@Url.Content("~/CSS/Functionality.css")" rel="stylesheet" />
+
+     <script src="~/Scripts/jquery-1.8.2.min.js"></script>
+    <script type="text/javascript">
+        $(function () {
+            $(document).on('click', '#btnSubmit', function () {
+                $.ajax({
+                    type: "POST",
+                    url: document.getElementById("hdnURL").value + "DicomRouterUpdateOnlineStatus",
+                    data: {
+                        "institutionCode": document.getElementById("txtinstitutionCode").value,
+                        "versionNo": document.getElementById("txtversionNo").value,
+                    },
+                    success: function (data) {
+                        
+
+                        if (document.all) {
+                            
+                            document.getElementById("resMsg").innerText = data.responseStatus.responseMessage;
+                        }
+                        else {
+                           
+                            document.getElementById("resMsg").textContent = data.responseStatus.responseMessage;
+                        }
+                        
+                        
+                    }
+                });
+
+            });
+        });
+        
+    </script>
+</head>
+<body>
+    <div class="hdr">
+        VETRIS API : Update Instititution's DICOM Router Online Status
+    </div>
+    <div style="height: 5px;"></div>
+    <div id="desc" style="height: 200px;">
+        <p>
+            <b>Objective :</b> To update the online status of the installed DICOM Router of an institution
+        </p>
+        <p>
+            The request object : <b>"DicomRouterUpdateOnlineStatus"</b>. The response object : <b>"DicomRouterUpdateOnlineStatusResult"</b>
+            
+        </p>
+        <div class="blocks" style="width:30%;">
+            <b><u>Request Input Parameters</u></b>
+            <div class="clr"></div>
+            <div class="hdrsL" style="width:40%;">Parameter</div>
+            <div class="hdrsR">&nbsp;&nbsp;Data Type</div>
+            <div class="clr"></div>
+            <div class="itmFL" style="width:40%;">institutionCode</div>
+            <div class="itmFR">&nbsp;&nbsp;String</div>
+            <div class="clr"></div>
+           
+        </div>
+        <div class="blocks" style="margin-left: 10px;width:30%;">
+            <b><u>Response Output Values</u></b>
+            <div class="clr"></div>
+            <div class="hdrsL" style="width:50%;">Value</div>
+            <div class="hdrsR">&nbsp;&nbsp;Data Type</div>
+            <div class="clr"></div>
+        </div>
+         <div style="margin-top: 50px;margin-top :50px;float:right;border:1px solid #000;width :100px;background-color:#eee;text-align:center;padding:10px;">
+            <a href ="@Url.Action("Index","Home")" id="btnBack" style="text-decoration:none;" ><< Back </a> 
+        </div>
+        <div class="clr"></div>
+
+    </div>
+    <div id="req" style="height: 300px;width:40%;">
+        <b><u>Request</u></b>
+
+        <div style="margin-top: 20px;">institutionCode</div>
+        <div>
+            <input type="text" id="txtinstitutionCode" maxlength="5" />
+        </div>
+        <div style="margin-top: 10px;">versionNo</div>
+        <div>
+            <input type="text" id="txtversionNo" maxlength="50" />
+        </div>
+        
+        <div style="margin-top: 30px;">
+            <input type="button" id="btnSubmit" value="Submit >>" />
+        </div>
+    </div>
+    <div id="res" style="height: 300px;width:57%;margin-left:10px;">
+        <b><u>Response</u></b>
+        
+        
+     
+        <div style="margin-top: 20px;">responseMessage</div>
+        <div>
+            <span id="resMsg" style="color: #ff0000;"></span>
+        </div>
+    </div>
+    <div class="clr"></div>
+    <div class="ftr" style="margin-top:20px;">
+        Copyright &copy; 2020 RAD365. All rights reserved.
+    </div>
+    <input type="hidden" id="hdnURL" value="@ViewBag.PublishURL" />
+</body>
+</html>
+
+

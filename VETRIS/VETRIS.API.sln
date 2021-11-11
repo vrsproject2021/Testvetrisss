@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VETRIS.API", "VETRIS.API\VETRIS.API.csproj", "{F9E4A08E-1FE2-47D8-959E-5D8D8F0AC875}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VETRIS.API.Core", "VETRIS.API.Core\VETRIS.API.Core.csproj", "{AC67E558-D976-4F4F-B432-3019B77ED7D1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F9E4A08E-1FE2-47D8-959E-5D8D8F0AC875}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9E4A08E-1FE2-47D8-959E-5D8D8F0AC875}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9E4A08E-1FE2-47D8-959E-5D8D8F0AC875}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9E4A08E-1FE2-47D8-959E-5D8D8F0AC875}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC67E558-D976-4F4F-B432-3019B77ED7D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC67E558-D976-4F4F-B432-3019B77ED7D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC67E558-D976-4F4F-B432-3019B77ED7D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC67E558-D976-4F4F-B432-3019B77ED7D1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

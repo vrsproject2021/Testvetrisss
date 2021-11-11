@@ -1,0 +1,15 @@
+E:\VetChoice\VETRIS_TFS_SOL\VETRIS\VETRISAccountsScheduler\VETRISAccountsScheduler.DAL\bin\Debug\VETRISAccountsScheduler.DAL.dll
+E:\VetChoice\VETRIS_TFS_SOL\VETRIS\VETRISAccountsScheduler\VETRISAccountsScheduler.DAL\bin\Debug\VETRISAccountsScheduler.DAL.pdb
+E:\VetChoice\VETRIS_TFS_SOL\VETRIS\VETRISAccountsScheduler\VETRISAccountsScheduler.DAL\obj\Debug\VETRISAccountsScheduler.DAL.dll
+E:\VetChoice\VETRIS_TFS_SOL\VETRIS\VETRISAccountsScheduler\VETRISAccountsScheduler.DAL\obj\Debug\VETRISAccountsScheduler.DAL.pdb
+E:\VetChoice\VETRIS_SOL_TFS\VETRIS\VETRISAccountsScheduler\VETRISAccountsScheduler.DAL\bin\Debug\VETRISAccountsScheduler.DAL.dll
+E:\VetChoice\VETRIS_SOL_TFS\VETRIS\VETRISAccountsScheduler\VETRISAccountsScheduler.DAL\bin\Debug\VETRISAccountsScheduler.DAL.pdb
+E:\VetChoice\VETRIS_SOL_TFS\VETRIS\VETRISAccountsScheduler\VETRISAccountsScheduler.DAL\obj\Debug\VETRISAccountsScheduler.DAL.dll
+E:\VetChoice\VETRIS_SOL_TFS\VETRIS\VETRISAccountsScheduler\VETRISAccountsScheduler.DAL\obj\Debug\VETRISAccountsScheduler.DAL.pdb
+E:\VetChoice\VETRIS_SOL_TFS\VETRIS\VETRISAccountsScheduler\VETRISAccountsScheduler.DAL\obj\Debug\VETRISAccountsScheduler.DAL.csprojResolveAssemblyReference.cache
+F:\VetChoice\VETRIS_SOL_TFS\VETRIS\VETRISAccountsScheduler\VETRISAccountsScheduler.DAL\bin\Debug\VETRISAccountsScheduler.DAL.dll
+F:\VetChoice\VETRIS_SOL_TFS\VETRIS\VETRISAccountsScheduler\VETRISAccountsScheduler.DAL\bin\Debug\VETRISAccountsScheduler.DAL.pdb
+F:\VetChoice\VETRIS_SOL_TFS\VETRIS\VETRISAccountsScheduler\VETRISAccountsScheduler.DAL\obj\Debug\VETRISAccountsScheduler.DAL.dll
+F:\VetChoice\VETRIS_SOL_TFS\VETRIS\VETRISAccountsScheduler\VETRISAccountsScheduler.DAL\obj\Debug\VETRISAccountsScheduler.DAL.pdb
+F:\VetChoice\VETRIS_SOL_TFS\VETRIS\VETRISAccountsScheduler\VETRISAccountsScheduler.DAL\obj\Debug\VETRISAccountsScheduler.DAL.csprojAssemblyReference.cache
+F:\VetChoice\VETRIS_SOL_TFS\VETRIS\VETRISAccountsScheduler\VETRISAccountsScheduler.DAL\obj\Debug\VETRISAccountsScheduler.DAL.csproj.CoreCompileInputs.cache

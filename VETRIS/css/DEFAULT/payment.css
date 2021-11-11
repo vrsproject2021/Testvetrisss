@@ -1,0 +1,452 @@
+﻿        html
+        {
+            font-family: 'Abel';
+        }
+       .body
+        {
+            margin: 0 0 0 0px;
+        }
+        .body, td, th
+        {
+            font-family: Tahoma,Arial,Verdana,Helvetica, sans-serif;
+            color: #736F6E;
+            text-decoration: none;
+        }
+        .pgtn-logo
+        {
+            height: 2.2rem;
+            min-width: 2.2rem;
+            margin-right: .8rem;
+            vertical-align: top;
+            margin: 0px 0px 20px;
+        }
+
+        .card-logo
+        {
+            margin-right: .8rem;
+            vertical-align: top;
+            margin: 0px 0px 20px;
+        }
+
+        .theForm .pageTitle
+        {
+            text-align: center;
+            margin-top: 10px;
+            font-size: 20px;
+            font-family: "Abel" !important;
+        }
+
+        .theForm .subTitle
+        {
+            text-align: center;
+            margin-top: 5px;
+            font-size: 20px;
+            font-family: "Abel" !important;
+        }
+
+        .theForm .form-group
+        {
+            width: 390px;
+        }
+
+        .theForm .formInner
+        {
+            font-family: 'Abel' !important;
+            width: 700px;
+            max-width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            margin: 20px auto;
+        }
+
+        #payButton
+        {
+            width: 400px;
+            display: block;
+            margin: 20px auto;
+            height: 50px !important;
+            font-size: 20px;
+            background-color: #1AD18E;
+            border-color: #1AD18E;
+            box-shadow: 0 3px 10px #bbbbbb;
+        }
+
+            #payButton:hover
+            {
+                background-color: #19C687;
+                border-color: #19C687;
+                box-shadow: 0 3px 4px #bbbbbb;
+            }
+
+            #payButton:active
+            {
+                opacity: 0.7;
+            }
+
+        #btnClose1
+        {
+            width: 400px;
+            display: block;
+            margin: 20px auto;
+            height: 50px !important;
+            font-size: 20px;
+            background-color: #d9534f;
+            border-color: #dddddd;
+            box-shadow: 0 3px 10px #bbbbbb;
+        }
+
+            #btnClose1:hover
+            {
+                background-color: #d9534f;
+                border-color: gray;
+                box-shadow: 0 3px 4px #bbbbbb;
+            }
+
+            #btnClose1:active
+            {
+                opacity: 0.7;
+            }
+
+        .checkboxLabel
+        {
+            margin: 0 0 0 7px;
+            height: 40px !important;
+            font-size: 18px;
+        }
+
+        .payment-field
+        {
+            border-radius: 2px;
+            width: 48%;
+            margin-bottom: 14px;
+            box-shadow: 0 2px 8px #dddddd;
+            font-size: 16px;
+            transition: 200ms;
+        }
+         .payment-field-dummy
+        {
+            width: 48%;
+            margin-bottom: 14px;
+            font-size: 16px;
+            transition: 200ms;
+        }
+
+        .payment-field-70
+        {
+            border-radius: 2px;
+            width: 68%;
+            margin-bottom: 14px;
+            box-shadow: 0 2px 8px #dddddd;
+            font-size: 16px;
+            transition: 200ms;
+        }
+
+        .payment-field-30
+        {
+            border-radius: 2px;
+            width: 28%;
+            margin-bottom: 14px;
+            box-shadow: 0 2px 8px #dddddd;
+            font-size: 16px;
+            transition: 200ms;
+        }
+
+        .option-field
+        {
+            border-radius: 2px;
+            width: 48%;
+            transition: 200ms;
+        }
+
+        .CollectJSValid
+        {
+            border-color: #B40E3E;
+        }
+
+        .CollectJSInvalid
+        {
+            border-color: #B40E3E;
+        }
+
+        .payment-field input:focus
+        {
+            border: 1px solid #1AD18E;
+            outline: none !important;
+        }
+
+        .payment-field:hover
+        {
+            box-shadow: 0 2px 4px #dddddd;
+        }
+
+        .payment-field input
+        {
+            border: 1px solid #ffffff;
+            width: 100%;
+            border-radius: 2px;
+            padding: 4px 8px;
+        }
+
+        payment-field-70 input:focus
+        {
+            border: 1px solid #1AD18E;
+            outline: none !important;
+        }
+
+        .payment-field-70:hover
+        {
+            box-shadow: 0 2px 4px #dddddd;
+        }
+
+        .payment-field-70 input
+        {
+            border: 1px solid #ffffff;
+            width: 100%;
+            border-radius: 2px;
+            padding: 4px 8px;
+        }
+
+        payment-field-30 input:focus
+        {
+            border: 1px solid #1AD18E;
+            outline: none !important;
+        }
+
+        .payment-field-30:hover
+        {
+            box-shadow: 0 2px 4px #dddddd;
+        }
+
+        .payment-field-30 input
+        {
+            border: 1px solid #ffffff;
+            width: 100%;
+            border-radius: 2px;
+            padding: 4px 8px;
+        }
+
+        .payment-field input:invalid
+        {
+            border: 1px solid #ffffff;
+            width: 100%;
+            border-radius: 2px;
+            /*border-left-color: lightcoral;
+                border-left: 3px solid;*/
+            padding: 4px 8px;
+        }
+
+        .payment-field input:required
+        {
+            border: 1px solid #ffffff;
+            width: 100%;
+            border-radius: 2px;
+            /*border-left-color: lightcoral;
+                border-left: 3px solid;*/
+            padding: 4px 8px;
+        }
+
+        .payment-field input:valid
+        {
+            border: 1px solid #1AD18E;
+            width: 100%;
+            border-radius: 2px;
+            /*border-left-color: #1AD18E;
+                border-left: 3px solid;*/
+            padding: 4px 8px;
+        }
+
+        #payment-fields
+        {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+
+        #ccnumber
+        {
+            width: 100%;
+            font-size: 16px;
+        }
+
+        #ccexp,
+        #cvv
+        {
+            font-size: 16px;
+        }
+
+        #paymentTokenInfo
+        {
+            width: 700px;
+            display: block;
+            margin: 30px auto;
+        }
+
+        .separator
+        {
+            margin-top: 30px;
+            width: 100%;
+        }
+
+        .general
+        {
+            font-size: 16px;
+            padding: 2px;
+            background-color: #ffffff;
+        }
+
+        .general-block
+        {
+            border: 1px solid #1AD18E;
+            padding: 2px;
+        }
+
+        .general-underlined
+        {
+            border-bottom: 1px solid #1AD18E;
+            padding: 2px;
+        }
+
+        @media only screen and (max-width: 600px)
+        {
+            .theForm .pageTitle
+            {
+                font-size: 30px;
+            }
+
+            .theForm
+            {
+                width: 300px;
+                max-width: 90%;
+                margin: auto;
+            }
+
+                .theForm .form-group
+                {
+                    width: 100%;
+                }
+        }
+
+        select
+        {
+            font-family: 'Abel' !important;
+            border: 1px solid #ffffff;
+            width: 100%;
+            border-radius: 2px;
+            padding: 4px 8px;
+            font-size: 16px;
+            cursor: pointer;
+            /*background-color: #c0392b;*/
+            /*border-bottom: 2px solid #962d22;*/
+            /*color: white;*/
+            /*padding-right: 38px;*/
+            /*appearance: none;*/
+            -webkit-appearance: none;
+            -moz-appearance: none;
+            /* Adding transition effect */
+            transition: color 0.3s ease, background-color 0.3s ease, border-bottom-color 0.3s ease;
+        }
+            /* For IE <= 11 */
+            select::-ms-expand
+            {
+                display: none;
+            }
+
+            select:hover,
+            select:focus
+            {
+                border: 1px solid #1AD18E;
+                outline: none !important;
+            }
+        /*select:focus {
+                color: #c0392b;
+                background-color: white;
+                border-bottom-color: #DCDCDC;
+            }*/
+
+        /*---------------------------------*/
+        .border-all
+        {
+            font-size: 16px;
+            border: 1px solid #ddd;
+            background: #fff;
+        }
+
+        .border-bottom
+        {
+            border-bottom: 1px solid #ddd;
+            margin-bottom: 5px;
+        }
+
+        .d-bg-solid
+        {
+            border: 1px solid #fbd8b4;
+            background: #fcf5ee;
+            margin-bottom: 10px;
+        }
+
+        .border-all .row
+        {
+            padding: 8px 0px;
+        }
+
+        .d-bg-solid .row
+        {
+            padding: 8px 0px;
+        }
+
+        .form-check-input
+        {
+            font-size: 16px;
+            margin-right: 10px !important;
+        }
+
+        .date-exp select
+        {
+            width: 100px;
+            float: left;
+            margin-right: 10px;
+        }
+
+        .payment-m-p
+        {
+            padding-left: 15px !important;
+        }
+
+        .payment-text-p
+        {
+            padding-left: 14px !important;
+        }
+
+        .payment-text-box
+        {
+            padding-left: 24px !important;
+        }
+
+        .border-all h3
+        {
+            font-size: 16px;
+            font-weight: bold;
+            margin: 0;
+        }
+
+        .border-all b
+        {
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        .border-all .img-c
+        {
+            padding-left: 10px;
+        }
+
+        .box-hidden
+        {
+            display: none;
+        }
+
+        .box-show
+        {
+            display: block;
+        }

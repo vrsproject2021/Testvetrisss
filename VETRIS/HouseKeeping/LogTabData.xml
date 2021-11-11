@@ -1,0 +1,5 @@
+﻿<SiteMap>
+  <item ID="UA" Text="User Activities"  Look-LeftIconUrl="" SelectedLook-LeftIconUrl=""/>
+  <item ID ="DR" Text="DICOM Router"  Look-LeftIconUrl="" SelectedLook-LeftIconUrl=""/>
+  
+</SiteMap>

@@ -1,0 +1,129 @@
+﻿.calendar_button
+{
+	border:none;
+	cursor:pointer;
+	height:20px;
+	width:20px;
+}
+
+.picker
+{
+  background-color: #EEE;
+  font-size: 14px;  
+  /*font-family: Arial,Tahoma,Verdana,monospace;*/
+  padding: 2px;
+  width:70px;
+  cursor: pointer;
+  border: solid thin #666;
+  border-radius:5px;
+}
+
+.calendar td
+{
+  font-size:14px;
+  font-weight:normal;
+  line-height :30px;
+}
+
+.title
+{
+	font-weight:bold;
+  background-color:#2C2C2C;color:#fff;
+}
+.day
+{
+  width:35px;
+  cursor:pointer;
+  text-align:center;
+  border-width:1px;
+  border-color: #CECECE;color:#fff;
+  border-style:solid;
+  font-weight:normal;
+}
+
+.dayhover
+{
+	width:35px;
+  cursor:pointer;
+  text-align:center;
+  text-decoration:underline;
+  border-width:1px;
+    border-color: #CECECE;color:#fff;
+  border-style:solid;
+  font-weight:normal;
+}
+
+.dayheader{
+  width:35px;
+  text-align:center;
+  border-width:1px;
+  border-style:solid;
+  font-weight:bold;
+  background-color: #1f1f1f;border-color: #CECECE;color: #fff;
+  font-weight:normal;
+}
+.disabledday
+{
+  text-decoration:none;
+  color:#aaa0a0;
+  background-image:url(../../images/baddate_dark.gif);
+  background-position:center center;
+  background-repeat:no-repeat;
+  cursor:default;
+}
+
+.othermonthday
+{
+  border-color: #CECECE;color:#868686;
+}
+
+.outofrangeday
+{
+  visibility:hidden;
+}
+
+.selectedday
+{
+  width:35px;
+  background-color:#000;border-color:#ff0000 !important;
+  color:#fff;
+  border-width:1px;
+  border-style:solid;
+  font-weight:bold;
+}
+
+.calendar
+{
+  border-style:solid;
+  border-width:1px;
+  border-collapse:collapse;
+  background-color: #1f1f1f;border-color: #CECECE;
+  cursor:default;
+}
+
+.month
+{
+  background-color:#383737;
+  margin-left:5px;
+  margin-right:5px;
+  margin-bottom:5px;
+  margin-top:0px;
+
+}
+
+.nextprev{
+  cursor:pointer;
+  height:30px;
+  vertical-align:middle;
+  padding:0px 5px 0px 5px;
+  background: #a2a5b4;
+}
+
+.selector
+{
+  width:14px;
+  cursor:pointer;
+  text-align:left;
+  vertical-align:middle;
+  background-color:#FFFFFF;
+}

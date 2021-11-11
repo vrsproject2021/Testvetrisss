@@ -1,0 +1,14 @@
+G:\VetChoice\VETRIS.Core\bin\Release\VETRIS.Core.dll
+G:\VetChoice\VETRIS.Core\bin\Release\VETRIS.Core.pdb
+G:\VetChoice\VETRIS.Core\bin\Release\VETRIS.DAL.dll
+G:\VetChoice\VETRIS.Core\bin\Release\VETRIS.DAL.pdb
+G:\VetChoice\VETRIS.Core\obj\Release\VETRIS.Core.csprojResolveAssemblyReference.cache
+G:\VetChoice\VETRIS.Core\obj\Release\VETRIS.Core.dll
+G:\VetChoice\VETRIS.Core\obj\Release\VETRIS.Core.pdb
+E:\VetChoice\VETRIS.Core\bin\Release\VETRIS.Core.dll
+E:\VetChoice\VETRIS.Core\bin\Release\VETRIS.Core.pdb
+E:\VetChoice\VETRIS.Core\bin\Release\VETRIS.DAL.dll
+E:\VetChoice\VETRIS.Core\bin\Release\VETRIS.DAL.pdb
+E:\VetChoice\VETRIS.Core\obj\Release\VETRIS.Core.csprojResolveAssemblyReference.cache
+E:\VetChoice\VETRIS.Core\obj\Release\VETRIS.Core.dll
+E:\VetChoice\VETRIS.Core\obj\Release\VETRIS.Core.pdb

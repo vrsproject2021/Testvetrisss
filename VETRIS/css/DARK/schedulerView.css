@@ -1,0 +1,205 @@
+.view
+{
+  font-family:Arial, Sans-Serif;
+  background-color:#343434;
+  padding:10px;
+  padding-left:0px;
+  overflow:hidden;
+}
+
+.appointment
+{
+  border:solid 1px #eee;
+  background-color:#000;
+  font-family:Arial;
+  font-size:10pt;
+  color:white;
+  filter:alpha(opacity=80);-moz-opacity:0.8;-khtml-opacity:0.8;opacity:0.8;
+  overflow:hidden;  
+
+}
+.appointment dl
+{
+  margin:0;
+  padding:0;
+  position:absolute;
+  top:0;
+  bottom:0;
+  height:auto;
+  left:0;
+  right:0;
+  width:auto;
+}
+.appointment dt
+{
+  margin:0;
+  padding:1px 4px 1px 4px;
+  background-color:inherit;
+  color:#FFFFFF;
+  font-weight:bold;
+  font-size:10px;
+  position:absolute;
+  top:0;
+  height:40px;
+  bottom:auto;
+  left:0;
+  right:0;
+  width:auto;
+}
+.appointment dd
+{
+  margin:0;
+  padding:1px 4px 0 4px;
+  font-size:11px;
+  position:absolute;
+  top:42px;
+  bottom:0;
+  height:auto;
+  left:0;
+  right:0;
+  width:auto;
+}
+
+.appointmentFooter
+{
+  cursor:n-resize;
+  background-position:center center;
+  background-repeat:no-repeat;
+  background-image:url(../../images/footer_resize.png);
+}
+
+.greenTitle dt
+{
+  background-color:green;
+}
+.redTitle dt
+{
+  background-color:maroon;
+}
+.yellowTitle dt
+{
+  background-color:gold;
+}
+.blueTitle dt
+{
+  background-color:mediumblue;
+}
+.orangeTitle dt
+{
+  background-color:darkorange;
+}
+.redTitle dt
+{
+  background-color:red;
+}
+
+
+.appointmentFocus dl 
+{
+  margin:0;
+  padding:0;
+  position:absolute;
+  top:0;
+  bottom:0;
+  height:auto;
+  left:0;
+  right:0;
+  width:auto;
+}
+.appointmentFocus dt
+{
+  margin:0;
+  padding:1px 4px 1px 4px;
+  font-weight:bold;
+  font-size:10px;
+  position:absolute;
+  top:0;
+  height:45px;
+  bottom:auto;
+  left:0;
+  right:0;
+  width:auto;
+}
+.appointmentFocus dd
+{
+  margin:0;
+  padding:1px 4px 0 4px;
+  font-size:11px;
+  position:absolute;
+  top:46px;
+  bottom:0;
+  height:auto;
+  left:0;
+  right:0;
+  width:auto;
+}
+
+
+.viewrow
+{
+  background-image:url(../../images/iphonebg.gif);
+  background-position:left top;
+  background-repeat:repeat-x;
+}
+
+.column
+{
+  border-right:solid 1px #CCCCCC;
+}
+
+.columnEven
+{
+  background-color:#FBFBFF;
+}
+
+.columnOdd
+{
+  background-color:#FFFFFF;
+}
+
+.columnHeaderCell
+{
+  font-size:12px;
+  font-weight:bold;
+  background-color:#EEEEEE;
+  padding-top:3px;
+  padding-bottom:3px;
+  text-align:center;
+}
+.columnHeaderCellNotToday
+{
+  color:#555555;
+  padding-bottom:3px;
+}
+.columnHeaderCellToday
+{
+  color:#5588CC;
+  padding-bottom:3px;
+}
+.surface
+{
+  margin-top:14px;
+}
+
+.columnHeader
+{
+  border:solid 1px #CCCCCC;
+}
+
+.rowHeaderCell
+{
+  font-size:11px;
+}
+.rowHeaderAmPmDesignator
+{
+  padding-right:2px;
+  float:right;
+  color:#eee;
+}
+.rowHeaderHour
+{
+  padding-right:2px;
+  float:right;
+  color:#fff;
+  font-weight:bold;
+}

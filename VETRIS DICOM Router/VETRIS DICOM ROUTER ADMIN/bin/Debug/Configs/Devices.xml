@@ -1,0 +1,27 @@
+<?xml version="1.0" standalone="yes"?>
+<DeviceData>
+  <Device>
+    <id>1</id>
+    <aetitle>erad</aetitle>
+    <port_no>11112</port_no>
+    <exeopt>-v 11112 xs -aet erad - od</exeopt>
+  </Device>
+  <Device>
+    <id>2</id>
+    <aetitle>erad1</aetitle>
+    <port_no>11113</port_no>
+    <exeopt>-v 11113 xs -aet erad1 - od</exeopt>
+  </Device>
+  <Device>
+    <id>3</id>
+    <aetitle>erad2</aetitle>
+    <port_no>11114</port_no>
+    <exeopt>-v 11114 xs -aet erad2 - od</exeopt>
+  </Device>
+  <Device>
+    <id>4</id>
+    <aetitle>erad3</aetitle>
+    <port_no>11115</port_no>
+    <exeopt>-v 11115 xs -aet erad3 - od</exeopt>
+  </Device>
+</DeviceData>

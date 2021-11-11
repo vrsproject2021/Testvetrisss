@@ -1,0 +1,15 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\vetrisepacs]
+@="URL:VETRIS ePACS VIEWER Protocol"
+"URL Protocol"="vetrisepacs"
+
+[HKEY_CLASSES_ROOT\vetrisepacs\DefaultIcon]
+@="D:\\DicomWin\\DicomWin.exe"
+
+[HKEY_CLASSES_ROOT\vetrisepacs\shell]
+
+[HKEY_CLASSES_ROOT\vetrisepacs\shell\open]
+
+[HKEY_CLASSES_ROOT\vetrisepacs\shell\open\command]
+@="D:\\DicomWin\\DicomWin.exe \"%1\""

@@ -1,0 +1,21 @@
+﻿body {
+    background: url(../images/loginBG.jpg) no-repeat;
+    background-size:cover;
+}
+.loginForm{
+    width: 35%; 
+    margin-top: 12%; 
+    margin-right: 3%; 
+    margin-left: auto; 
+    border: 5px solid #2185d0; 
+    padding: 10px; 
+    background: rgba(255,255,255, 0.6);
+}
+
+@media (max-width: 767px) {
+    .loginForm {
+        width: 96%;
+        margin: 10% auto 0;
+        background: rgba(255,255,255, 0.9);
+    }
+}

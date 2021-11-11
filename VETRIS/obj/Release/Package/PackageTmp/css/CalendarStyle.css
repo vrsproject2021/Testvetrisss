@@ -1,0 +1,125 @@
+﻿.calendar_button
+{
+	border:none;
+	cursor:pointer;
+	height:20px;
+	width:20px;
+}
+
+.picker
+{
+  background-color: #EEE;
+  font-size: 14px;  
+  /*font-family: Arial,Tahoma,Verdana,monospace;*/
+  padding: 2px;
+  width:70px;
+  cursor: pointer;
+  border: solid thin #666;
+  border-radius:5px;
+}
+
+.calendar td
+{
+  font-size:14px;
+  font-weight:normal;
+  line-height :30px;
+}
+
+.title
+{
+	font-weight:bold;
+  background-color:#DEEBDC;
+}
+
+.day
+{
+  width:35px;
+  cursor:pointer;
+  text-align:center;
+  border-width:1px;
+  border-color:#F6F6F6;
+  border-style:solid;
+  font-weight:normal;
+}
+
+.dayhover
+{
+	width:35px;
+  cursor:pointer;
+  text-align:center;
+  text-decoration:underline;
+  border-width:1px;
+  border-color:#F6F6F6;
+  border-style:solid;
+  font-weight:normal;
+}
+
+.dayheader
+{
+  width:35px;
+  text-align:center;
+  border-width:1px;
+  border-color:white;
+  border-style:solid;
+  font-weight:bold;
+  background-color:#FFFFFF;
+  font-weight:normal;
+}
+
+.othermonthday
+{
+  color:#999999;
+}
+
+.outofrangeday
+{
+  visibility:hidden;
+}
+
+.selectedday
+{
+  width:35px;
+  background-color:#FBE694;
+  color:#000000;
+  border-width:1px;
+  border-color:#BB5503 !important;
+  border-style:solid;
+  font-weight:bold;
+}
+
+.calendar
+{
+  border-style:solid;
+  border-width:1px;
+  border-color:Black;
+  border-collapse:collapse;
+  background-color:#FFFFFF;
+  cursor:default;
+}
+
+.month
+{
+  background-color:#F6F6F6;
+  margin-left:5px;
+  margin-right:5px;
+  margin-bottom:5px;
+  margin-top:0px;
+
+}
+
+.nextprev
+{
+  cursor:pointer;
+  height:30px;
+  vertical-align:middle;
+  padding:0px 5px 0px 5px;
+}
+
+.selector
+{
+  width:14px;
+  cursor:pointer;
+  text-align:left;
+  vertical-align:middle;
+  background-color:#FFFFFF;
+}

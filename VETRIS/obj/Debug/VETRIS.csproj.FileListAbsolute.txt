@@ -1,0 +1,67 @@
+F:\VetChoice\VETRIS_SOL_TFS\VETRIS\VETRIS\bin\VETRIS.dll
+F:\VetChoice\VETRIS_SOL_TFS\VETRIS\VETRIS\bin\VETRIS.pdb
+F:\VetChoice\VETRIS_SOL_TFS\VETRIS\VETRIS\bin\CompareFIles.dll
+F:\VetChoice\VETRIS_SOL_TFS\VETRIS\VETRIS\bin\VETRIS.Core.dll
+F:\VetChoice\VETRIS_SOL_TFS\VETRIS\VETRIS\bin\VETRIS.DAL.dll
+F:\VetChoice\VETRIS_SOL_TFS\VETRIS\VETRIS\bin\Shaman.DiffMatchPatch.dll
+F:\VetChoice\VETRIS_SOL_TFS\VETRIS\VETRIS\bin\PdfiumViewer.dll
+F:\VetChoice\VETRIS_SOL_TFS\VETRIS\VETRIS\bin\itextsharp.dll
+F:\VetChoice\VETRIS_SOL_TFS\VETRIS\VETRIS\bin\Shaman.ValueString.dll
+F:\VetChoice\VETRIS_SOL_TFS\VETRIS\VETRIS\bin\VETRIS.Core.pdb
+F:\VetChoice\VETRIS_SOL_TFS\VETRIS\VETRIS\bin\CompareFIles.pdb
+F:\VetChoice\VETRIS_SOL_TFS\VETRIS\VETRIS\bin\VETRIS.DAL.pdb
+F:\VetChoice\VETRIS_SOL_TFS\VETRIS\VETRIS\obj\Debug\VETRIS.csprojResolveAssemblyReference.cache
+F:\VetChoice\VETRIS_SOL_TFS\VETRIS\VETRIS\obj\Debug\VETRIS.Common.Resources.messages.resources
+F:\VetChoice\VETRIS_SOL_TFS\VETRIS\VETRIS\obj\Debug\VETRIS.csproj.GenerateResource.Cache
+F:\VetChoice\VETRIS_SOL_TFS\VETRIS\VETRIS\obj\Debug\VETRIS.dll.licenses
+F:\VetChoice\VETRIS_SOL_TFS\VETRIS\VETRIS\obj\Debug\VETRIS.dll
+F:\VetChoice\VETRIS_SOL_TFS\VETRIS\VETRIS\obj\Debug\VETRIS.pdb
+F:\VetChoice\CodeBackups\VETRIS_SOURCE_CODE\VETRIS\bin\VETRIS.dll
+F:\VetChoice\CodeBackups\VETRIS_SOURCE_CODE\VETRIS\bin\VETRIS.pdb
+F:\VetChoice\CodeBackups\VETRIS_SOURCE_CODE\VETRIS\bin\CKFinder.dll
+F:\VetChoice\CodeBackups\VETRIS_SOURCE_CODE\VETRIS\bin\CompareFIles.dll
+F:\VetChoice\CodeBackups\VETRIS_SOURCE_CODE\VETRIS\bin\VETRIS.Core.dll
+F:\VetChoice\CodeBackups\VETRIS_SOURCE_CODE\VETRIS\bin\VETRIS.DAL.dll
+F:\VetChoice\CodeBackups\VETRIS_SOURCE_CODE\VETRIS\bin\VETRIS.Core.pdb
+F:\VetChoice\CodeBackups\VETRIS_SOURCE_CODE\VETRIS\bin\CKFinder.pdb
+F:\VetChoice\CodeBackups\VETRIS_SOURCE_CODE\VETRIS\bin\CompareFIles.pdb
+F:\VetChoice\CodeBackups\VETRIS_SOURCE_CODE\VETRIS\bin\VETRIS.DAL.pdb
+F:\VetChoice\CodeBackups\VETRIS_SOURCE_CODE\VETRIS\obj\Debug\VETRIS.csprojResolveAssemblyReference.cache
+F:\VetChoice\CodeBackups\VETRIS_SOURCE_CODE\VETRIS\obj\Debug\VETRIS.Common.Resources.messages.resources
+F:\VetChoice\CodeBackups\VETRIS_SOURCE_CODE\VETRIS\obj\Debug\VETRIS.csproj.GenerateResource.Cache
+F:\VetChoice\CodeBackups\VETRIS_SOURCE_CODE\VETRIS\obj\Debug\VETRIS.dll.licenses
+F:\VetChoice\CodeBackups\VETRIS_SOURCE_CODE\VETRIS\obj\Debug\VETRIS.dll
+F:\VetChoice\CodeBackups\VETRIS_SOURCE_CODE\VETRIS\obj\Debug\VETRIS.pdb
+F:\VetChoice\VETRIS_1.0\Main\VETRIS\bin\VETRIS.dll
+F:\VetChoice\VETRIS_1.0\Main\VETRIS\bin\VETRIS.pdb
+F:\VetChoice\VETRIS_1.0\Main\VETRIS\bin\CKFinder.dll
+F:\VetChoice\VETRIS_1.0\Main\VETRIS\bin\VETRIS.Core.dll
+F:\VetChoice\VETRIS_1.0\Main\VETRIS\bin\VETRIS.DAL.dll
+F:\VetChoice\VETRIS_1.0\Main\VETRIS\bin\VETRIS.Core.pdb
+F:\VetChoice\VETRIS_1.0\Main\VETRIS\bin\CKFinder.pdb
+F:\VetChoice\VETRIS_1.0\Main\VETRIS\bin\VETRIS.DAL.pdb
+F:\VetChoice\VETRIS_1.0\Main\VETRIS\obj\Debug\VETRIS.csprojResolveAssemblyReference.cache
+F:\VetChoice\VETRIS_1.0\Main\VETRIS\obj\Debug\VETRIS.Common.Resources.messages.resources
+F:\VetChoice\VETRIS_1.0\Main\VETRIS\obj\Debug\VETRIS.csproj.GenerateResource.Cache
+F:\VetChoice\VETRIS_1.0\Main\VETRIS\obj\Debug\VETRIS.dll.licenses
+F:\VetChoice\VETRIS_1.0\Main\VETRIS\obj\Debug\VETRIS.dll
+F:\VetChoice\VETRIS_1.0\Main\VETRIS\obj\Debug\VETRIS.pdb
+F:\VetChoice\VETRIS_1.0\Main\VETRIS\bin\DICOMLib.dll
+F:\VetChoice\VETRIS_1.0\Main\VETRIS\bin\DICOMLib.pdb
+D:\VETRIS WORK\VETRIS_SOURCE_CODE-master_485\VETRIS_SOURCE_CODE-master\VETRIS\bin\VETRIS.dll.config
+D:\VETRIS WORK\VETRIS_SOURCE_CODE-master_485\VETRIS_SOURCE_CODE-master\VETRIS\bin\VETRIS.dll
+D:\VETRIS WORK\VETRIS_SOURCE_CODE-master_485\VETRIS_SOURCE_CODE-master\VETRIS\bin\VETRIS.pdb
+D:\VETRIS WORK\VETRIS_SOURCE_CODE-master_485\VETRIS_SOURCE_CODE-master\VETRIS\bin\CKFinder.dll
+D:\VETRIS WORK\VETRIS_SOURCE_CODE-master_485\VETRIS_SOURCE_CODE-master\VETRIS\bin\VETRIS.Core.dll
+D:\VETRIS WORK\VETRIS_SOURCE_CODE-master_485\VETRIS_SOURCE_CODE-master\VETRIS\bin\VETRIS.DAL.dll
+D:\VETRIS WORK\VETRIS_SOURCE_CODE-master_485\VETRIS_SOURCE_CODE-master\VETRIS\bin\VETRIS.Core.pdb
+D:\VETRIS WORK\VETRIS_SOURCE_CODE-master_485\VETRIS_SOURCE_CODE-master\VETRIS\bin\CKFinder.pdb
+D:\VETRIS WORK\VETRIS_SOURCE_CODE-master_485\VETRIS_SOURCE_CODE-master\VETRIS\bin\VETRIS.DAL.pdb
+D:\VETRIS WORK\VETRIS_SOURCE_CODE-master_485\VETRIS_SOURCE_CODE-master\VETRIS\obj\Debug\VETRIS.csproj.AssemblyReference.cache
+D:\VETRIS WORK\VETRIS_SOURCE_CODE-master_485\VETRIS_SOURCE_CODE-master\VETRIS\obj\Debug\VETRIS.Common.Resources.messages.resources
+D:\VETRIS WORK\VETRIS_SOURCE_CODE-master_485\VETRIS_SOURCE_CODE-master\VETRIS\obj\Debug\VETRIS.csproj.GenerateResource.cache
+D:\VETRIS WORK\VETRIS_SOURCE_CODE-master_485\VETRIS_SOURCE_CODE-master\VETRIS\obj\Debug\VETRIS.dll.licenses
+D:\VETRIS WORK\VETRIS_SOURCE_CODE-master_485\VETRIS_SOURCE_CODE-master\VETRIS\obj\Debug\VETRIS.csproj.CoreCompileInputs.cache
+D:\VETRIS WORK\VETRIS_SOURCE_CODE-master_485\VETRIS_SOURCE_CODE-master\VETRIS\obj\Debug\VETRIS.csproj.CopyComplete
+D:\VETRIS WORK\VETRIS_SOURCE_CODE-master_485\VETRIS_SOURCE_CODE-master\VETRIS\obj\Debug\VETRIS.dll
+D:\VETRIS WORK\VETRIS_SOURCE_CODE-master_485\VETRIS_SOURCE_CODE-master\VETRIS\obj\Debug\VETRIS.pdb

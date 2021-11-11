@@ -1,0 +1,58 @@
+{
+  "name": "svelte-app",
+  "version": "1.0.0",
+  "scripts": {
+    "watch:tailwind": "postcss src/styles.css -o public/index.css -w",
+    "build:tailwind": "cross-env NODE_ENV=production postcss src/styles.css -o public/index.css",
+    "build": "yarn run build:tailwind && routify -b && rollup -c",
+    "start": "sirv public --single",
+    "serve": "serve public -p 80",
+    "my-server": "rollup -c -w",
+    "routify-my-server": "routify -c my-server",
+    "dev": "concurrently \"routify -c my-server\" \"yarn run watch:tailwind\""
+  },
+  "devDependencies": {
+    "@mdi/font": "^5.9.55",
+    "@mdi/js": "^5.9.55",
+    "@octokit/rest": "18.3.5",
+    "@rollup/plugin-commonjs": "^17.0.0",
+    "@rollup/plugin-json": "^4.1.0",
+    "@rollup/plugin-node-resolve": "^11.0.0",
+    "@roxi/routify": "^2.11.3",
+    "autoprefixer": "^10.2.4",
+    "concurrently": "^6.0.0",
+    "cross-env": "^7.0.3",
+    "jquery": "^3.5.1",
+    "mdi-svelte": "^1.1.2",
+    "postcss-cli": "^8.3.1",
+    "postcss-nesting": "^7.0.1",
+    "rollup": "^2.3.4",
+    "rollup-plugin-css-only": "^3.1.0",
+    "rollup-plugin-livereload": "^2.0.0",
+    "rollup-plugin-monaco-editor": "^0.0.7",
+    "rollup-plugin-svelte": "^7.0.0",
+    "rollup-plugin-terser": "^7.0.0",
+    "svelte": "^3.0.0",
+    "svelte-flatpickr": "^3.1.0",
+    "svelte-material-icons": "^1.0.3",
+    "svelte-moveable": "^0.14.0",
+    "svelte-preprocess": "^4.6.5",
+    "svelte-resizable-columns": "^1.0.3",
+    "svelte-watch-resize": "^1.0.3",
+    "sweetalert2": "^10.15.5",
+    "tailwindcss": "^2.0.2",
+    "uuid": "^8.3.2",
+    "vanilla-picker": "^2.11.2"
+  },
+  "dependencies": {
+    "@simonwep/pickr": "^1.8.1",
+    "moment-timezone": "^0.5.33",
+    "monaco-editor": "^0.24.0",
+    "sirv-cli": "^1.0.0",
+    "svelte-loading-spinners": "^0.1.4",
+    "windows-iana": "^5.0.1"
+  },
+  "routify": {
+    "dynamicImports": false
+  }
+}

@@ -1,0 +1,57 @@
+﻿<div style="background-color:rgba(255, 255, 255, 1);border:5px solid rgba(217, 217, 217, 1);border-collapse:collapse;border-radius:5px;box-shadow: 0px 0px 10px #333;">
+<table border="0" id="tblDataList" style="background-color:#fff;border:solid 4px rgba(0, 0, 0, 0.14);border-collapse:collapse;border-radius:2px;">
+   
+    <tr>
+
+        <td style="background-color: #fff; text-align: center;" >
+            <iframe id="iframeDataList" src="#" frameborder="0" scrolling="no"  style="padding-top: 0px; padding-bottom: 0px; width: 100%;overflow:auto;"></iframe>
+        </td>
+
+    </tr>
+</table>
+</div>
+<script type="text/javascript">
+    document.getElementById("tblDataList").width = screen.width - GiWidth;
+    //document.getElementById("tblDataList").width = GiWidth.toString() + "%";
+    var objiframeDataList = document.getElementById("iframeDataList");
+    objiframeDataList.src = GsLaunchURL;
+
+    function getDataListFrameDocument(aID) {
+        var rv = null;
+        var frame = getElement(aID);
+        // if contentDocument exists, W3C 
+
+        //compliant(e.g.Mozilla)
+        if (frame.contentDocument)
+            rv = frame.contentDocument;
+        else // bad Internet Explorer  ;)
+            rv = document.frames[aID].document;
+        return rv;
+    }
+    function adjusDataListFrameHeight() {
+        var frame = getElement("iframeDataList");
+        var frameDoc = getDataListFrameDocument("iframeDataList");
+        if (GiHeight > 0)
+            frame.style.height = GiHeight.toString() + "px";
+        else {
+            var ht = frameDoc.body.scrollHeight;
+            if (GiBuffHt > 0) {
+                frame.style.height = (ht + GiBuffHt).toString() + "px";
+                frame.scrolling = "no";
+               // alert(GiBuffHt);
+            }
+            else
+                frame.style.height = (ht + 20).toString() + "px";
+        }
+        if (GiTop > 0) {
+            document.getElementById("dtlst").style.top = GiTop.toString() + "%";
+        }
+       
+    }
+    function getElement(aID) {
+
+        return (document.getElementById) ? document.getElementById(aID) : document.all[aID];
+    }
+  
+</script>
+

@@ -1,0 +1,7 @@
+E:\VetChoice\VETRIS.API.Core\bin\Release\VETRIS.API.Core.dll
+E:\VetChoice\VETRIS.API.Core\bin\Release\VETRIS.API.Core.pdb
+E:\VetChoice\VETRIS.API.Core\bin\Release\VETRIS.DAL.dll
+E:\VetChoice\VETRIS.API.Core\bin\Release\VETRIS.DAL.pdb
+E:\VetChoice\VETRIS.API.Core\obj\Release\VETRIS.API.Core.csprojResolveAssemblyReference.cache
+E:\VetChoice\VETRIS.API.Core\obj\Release\VETRIS.API.Core.dll
+E:\VetChoice\VETRIS.API.Core\obj\Release\VETRIS.API.Core.pdb

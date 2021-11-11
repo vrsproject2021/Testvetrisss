@@ -1,0 +1,70 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31005.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Vetris.Report.Core", "Vetris.Report.Core\Vetris.Report.Core.csproj", "{0BB65A47-97FB-43C9-9F57-3D23FD0B7391}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Vetris.Report.DataAccess", "Vetris.Report.DataAccess\Vetris.Report.DataAccess.csproj", "{543C12BA-456C-4540-91F3-436C138FCEE5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Vetris.Report.Service", "Vetris.Report.Service\Vetris.Report.Service.csproj", "{F09A87C2-510C-4676-A136-257EA70C2EAC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Vetris.Report.Server", "Vetris.Report.Server\Vetris.Report.Server.csproj", "{3AB0BB39-48E1-4EA6-B353-38D13F6AFBBD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vetris.Reporting.Library", "Vetris.Reporting.Library\Vetris.Reporting.Library.csproj", "{D8293B50-787C-410B-A4F7-CF4089DC0479}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0BB65A47-97FB-43C9-9F57-3D23FD0B7391}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0BB65A47-97FB-43C9-9F57-3D23FD0B7391}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0BB65A47-97FB-43C9-9F57-3D23FD0B7391}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0BB65A47-97FB-43C9-9F57-3D23FD0B7391}.Release|Any CPU.Build.0 = Release|Any CPU
+		{543C12BA-456C-4540-91F3-436C138FCEE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{543C12BA-456C-4540-91F3-436C138FCEE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{543C12BA-456C-4540-91F3-436C138FCEE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{543C12BA-456C-4540-91F3-436C138FCEE5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F09A87C2-510C-4676-A136-257EA70C2EAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F09A87C2-510C-4676-A136-257EA70C2EAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F09A87C2-510C-4676-A136-257EA70C2EAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F09A87C2-510C-4676-A136-257EA70C2EAC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3AB0BB39-48E1-4EA6-B353-38D13F6AFBBD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3AB0BB39-48E1-4EA6-B353-38D13F6AFBBD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3AB0BB39-48E1-4EA6-B353-38D13F6AFBBD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3AB0BB39-48E1-4EA6-B353-38D13F6AFBBD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D8293B50-787C-410B-A4F7-CF4089DC0479}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8293B50-787C-410B-A4F7-CF4089DC0479}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8293B50-787C-410B-A4F7-CF4089DC0479}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8293B50-787C-410B-A4F7-CF4089DC0479}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F2603E81-59FC-4C3C-BCD0-FB71A58BF50D}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 6
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://dev.azure.com/coactiveitsol
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Vetris.Report.Core\\Vetris.Report.Core.csproj
+		SccProjectName1 = Vetris.Report.Core
+		SccLocalPath1 = Vetris.Report.Core
+		SccProjectUniqueName2 = Vetris.Report.DataAccess\\Vetris.Report.DataAccess.csproj
+		SccProjectName2 = Vetris.Report.DataAccess
+		SccLocalPath2 = Vetris.Report.DataAccess
+		SccProjectUniqueName3 = Vetris.Report.Service\\Vetris.Report.Service.csproj
+		SccProjectName3 = Vetris.Report.Service
+		SccLocalPath3 = Vetris.Report.Service
+		SccProjectUniqueName4 = Vetris.Report.Server\\Vetris.Report.Server.csproj
+		SccProjectName4 = Vetris.Report.Server
+		SccLocalPath4 = Vetris.Report.Server
+		SccProjectUniqueName5 = Vetris.Reporting.Library\\Vetris.Reporting.Library.csproj
+		SccProjectName5 = Vetris.Reporting.Library
+		SccLocalPath5 = Vetris.Reporting.Library
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,15 @@
+﻿.customBG {
+    background-color: #2C2C2C;
+}
+.customBG table {background-color:#2C2C2C;border: 2px solid #CECECE;}
+.customBG .x_panel .x_content{color:#fff;}
+.customBG .x_panel .x_title h4{color:#fff;}
+.customBG .x_panel .borderHdr{border-bottom: 1px solid #fff;}
+.borderHdr {
+    border-bottom: 1px solid #eee;
+    width: 100%;
+	margin-bottom:10px;
+	margin-top:2px;
+	margin-left:2px;
+    margin-right:2px;
+}

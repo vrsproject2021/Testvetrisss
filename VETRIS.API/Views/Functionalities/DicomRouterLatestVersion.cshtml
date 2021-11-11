@@ -1,0 +1,116 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>DICOM Router Latest Version</title>
+    <link rel="shortcut icon" type="image/x-icon" href="../favicon.ico" />
+    <link href="@Url.Content("~/CSS/Functionality.css")" rel="stylesheet" />
+
+     <script src="~/Scripts/jquery-1.8.2.min.js"></script>
+    <script type="text/javascript">
+        $(function () {
+            $(document).on('click', '#btnSubmit', function () {
+                $.ajax({
+                    type: "POST",
+                    url: document.getElementById("hdnURL").value + "DicomRouterLatestVersion",
+                    data: {
+                        "latestVersion": "",
+                    },
+                    success: function (data) {
+                        var Records = "";
+                       
+                        Records += "[LatestVersion : " + data.LatestVersion + "]<br/>";
+                        document.getElementById("resLatestVersion").innerHTML = Records;
+                        //document.getElementById("resCode").innerHTML = data.responseStatus.responseCode;
+                        document.getElementById("resMsg").innerHTML = data.responseStatus.responseMessage;
+                        
+                        
+                    }
+                });
+
+            });
+        });
+        
+    </script>
+</head>
+<body>
+    <div class="hdr">
+        VETRIS API : Get DICOM Router's Latest Version
+    </div>
+    <div style="height: 5px;"></div>
+    <div id="desc" style="height: 170px;">
+        <p>
+            <b>Objective :</b> To get the latest version of DICOM ROUTER released
+        </p>
+        <p>
+            The request object : <b>"API"</b>. The response object : <b>"DicomRouterLatestVersionResult"</b>
+        </p>
+        <div class="blocks" style="width:30%;">
+            <b><u>Request Input Parameters</u></b>
+            <div class="clr"></div>
+            <div class="hdrsL" style="width:40%;">Parameter</div>
+            <div class="hdrsR">&nbsp;&nbsp;Data Type</div>
+            <div class="clr"></div>
+            <div class="itmFL" style="width:40%;">N/A</div>
+            <div class="itmFR">&nbsp;&nbsp;N/A</div>
+            <div class="clr"></div>
+           
+        </div>
+        <div class="blocks" style="margin-left: 10px;width:30%;">
+            <b><u>Response Output Values</u></b>
+            <div class="clr"></div>
+            <div class="hdrsL" style="width:40%;">Value</div>
+            <div class="hdrsR">&nbsp;&nbsp;Data Type</div>
+            <div class="clr"></div>
+            <div class="itmFL" style="width:40%;">LatestVersion</div>
+            <div class="itmFR">&nbsp;&nbsp;String</div>
+            <div class="clr"></div>
+            
+        </div>
+         <div style="margin-top: 50px;margin-top :50px;float:right;border:1px solid #000;width :100px;background-color:#eee;text-align:center;padding:10px;">
+            <a href ="@Url.Action("Index","Home")" id="btnBack" style="text-decoration:none;" ><< Back </a> 
+        </div>
+        <div class="clr"></div>
+
+    </div>
+    <div id="req" style="height: 300px;width:40%;">
+        <b><u>Request</u></b>
+
+        <div style="margin-top: 20px;">N/A</div>
+        <div>
+           
+            &nbsp;
+        </div>
+        
+        <div style="margin-top: 30px;">
+            <input type="button" id="btnSubmit" value="Submit >>" />
+        </div>
+    </div>
+    <div id="res" style="height: 300px;width:57%;margin-left:10px;">
+        <b><u>Response</u></b>
+        <div style="margin-top: 10px;">LatestVersion</div>
+        <div>
+            <span id="resLatestVersion"></span>
+        </div>
+        
+        <div style="margin-top: 20px;">
+            <b><u>Response Status</u></b>
+        </div>
+     
+        <div style="margin-top: 10px;">responseMessage</div>
+        <div>
+            <span id="resMsg" style="color: #ff0000;"></span>
+        </div>
+    </div>
+    <div class="clr"></div>
+    <div class="ftr" style="margin-top: 85px;">
+        Copyright &copy; 2019 RAD365. All rights reserved.
+    </div>
+    <input type="hidden" id="hdnURL" value="@ViewBag.PublishURL" />
+</body>
+</html>

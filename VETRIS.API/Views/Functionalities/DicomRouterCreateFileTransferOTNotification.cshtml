@@ -1,0 +1,146 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>DICOM Router Create Notification For File(s) Being Uploaded From Institution Takes More than Expected Time</title>
+    <link rel="shortcut icon" type="image/x-icon" href="../favicon.ico" />
+    <link href="@Url.Content("~/CSS/Functionality.css")" rel="stylesheet" />
+
+    <script src="~/Scripts/jquery-1.8.2.min.js"></script>
+    <script type="text/javascript">
+        $(function () {
+            $(document).on('click', '#btnSubmit', function () {
+                $.ajax({
+                    type: "POST",
+                    url: document.getElementById("hdnURL").value + "DicomRouterCreateFileTransferOTNotification.",
+                    data: {
+                        "institutionCode": document.getElementById("txtinstitutionCode").value,
+                        "importSessionID": document.getElementById("txtimportSessionID").value,
+                        "importFileCount": document.getElementById("txtimportFileCount").value,
+                        "transferFileCount": document.getElementById("txttransferFileCount").value,
+                        "uploadDate": document.getElementById("txtuploadDate").value,
+                        "timeTakenInMinutes": document.getElementById("txttimeInMins").value,
+                    },
+                    success: function (data) {
+                        if (document.all) {
+
+                            document.getElementById("resMsg").innerText = data.responseStatus.responseMessage;
+                        }
+                        else {
+
+                            document.getElementById("resMsg").textContent = data.responseStatus.responseMessage;
+                        }
+
+
+                    }
+                });
+
+            });
+        });
+
+    </script>
+</head>
+<body>
+    <div class="hdr">
+        VETRIS API : Create Notification For File(s) Being Uploaded From Institution Takes More Than Expected Time
+    </div>
+    <div style="height: 5px;"></div>
+    <div id="desc" style="height: 350px;">
+        <p>
+            <b>Objective :</b> To create notification for file(s) being uploaded from institution taking ore than expected time
+        </p>
+        <p>
+            The request object : <b>"DicomRouterCreateFileTransferOTNotification."</b>. The response object : <b>"DicomRouterCreateFileTransferOTNotification.Result"</b>
+
+        </p>
+        <div class="blocks" style="width: 30%;">
+            <b><u>Request Input Parameters</u></b>
+            <div class="clr"></div>
+            <div class="hdrsL" style="width: 40%;">Parameter</div>
+            <div class="hdrsR">&nbsp;&nbsp;Data Type</div>
+            <div class="clr"></div>
+            <div class="itmFL" style="width: 40%;">institutionCode</div>
+            <div class="itmFR">&nbsp;&nbsp;String</div>
+            <div class="clr"></div>
+            <div class="itmFL" style="width: 40%;">importSessionID</div>
+            <div class="itmFR">&nbsp;&nbsp;String</div>
+            <div class="clr"></div>
+            <div class="itmFL" style="width: 40%;">importFileCount</div>
+            <div class="itmFR">&nbsp;&nbsp;Integer</div>
+            <div class="clr"></div>
+            <div class="itmFL" style="width: 40%;">transferFileCount</div>
+            <div class="itmFR">&nbsp;&nbsp;Integer</div>
+            <div class="clr"></div>
+            <div class="itmFL" style="width: 40%;">uploadDate</div>
+            <div class="itmFR">&nbsp;&nbsp;DateTime</div>
+            <div class="clr"></div>
+            <div class="itmFL" style="width: 40%;">timeTakenInMinutes</div>
+            <div class="itmFR">&nbsp;&nbsp;Integer</div>
+            <div class="clr"></div>
+
+        </div>
+        <div class="blocks" style="margin-left: 10px; width: 30%;">
+            <b><u>Response Output Values</u></b>
+            <div class="clr"></div>
+            <div class="hdrsL" style="width: 50%;">Value</div>
+            <div class="hdrsR">&nbsp;&nbsp;Data Type</div>
+            <div class="clr"></div>
+        </div>
+        <div style="margin-top: 50px; margin-top: 200px; float: right; border: 1px solid #000; width: 100px; background-color: #eee; text-align: center; padding: 10px;">
+            <a href ="@Url.Action("Index", "Home")" id="btnBack" style="text-decoration:none;" ><< Back </a>
+        </div>
+        <div class="clr"></div>
+
+    </div>
+    <div id="req" style="height: 380px; width: 40%;">
+        <b><u>Request</u></b>
+
+        <div style="margin-top: 20px;">institutionCode</div>
+        <div>
+            <input type="text" id="txtinstitutionCode" maxlength="5" />
+        </div>
+        <div style="margin-top: 10px;">importSessionID</div>
+        <div>
+            <input type="text" id="txtimportSessionID" maxlength="30" />
+        </div>
+        <div style="margin-top: 10px;">importFileCount</div>
+        <div>
+            <input type="number" id="txtimportFileCount" value="0"/>
+        </div>
+        <div style="margin-top: 10px;">transferFileCount</div>
+        <div>
+            <input type="number" id="txttransferFileCount" value="0"/>
+        </div>
+        <div style="margin-top: 10px;">uploadDate (ddMMMyyyy HH:mm)</div>
+        <div>
+            <input type="text" id="txtuploadDate" />
+        </div>
+        <div style="margin-top: 10px;">timeTakenInMinutes</div>
+        <div>
+            <input type="number" id="txttimeInMins" value="0" />
+        </div>
+        <div style="margin-top: 30px;">
+            <input type="button" id="btnSubmit" value="Submit >>" />
+        </div>
+    </div>
+    <div id="res" style="height: 380px; width: 57%; margin-left: 10px;">
+        <b><u>Response</u></b>
+        <div style="margin-top: 20px;">responseMessage</div>
+        <div>
+            <span id="resMsg" style="color: #ff0000;"></span>
+        </div>
+    </div>
+    <div class="clr"></div>
+    <div class="ftr" style="margin-top: 20px;">
+        Copyright &copy; 2020 RAD365. All rights reserved.
+    </div>
+    <input type="hidden" id="hdnURL" value="@ViewBag.PublishURL" />
+</body>
+</html>
+
+

@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup Label="Globals">
+    <SccProjectName>SAK</SccProjectName>
+    <SccProvider>SAK</SccProvider>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccLocalPath>SAK</SccLocalPath>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="System.Drawing.Common" Version="5.0.2" />
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.2" />
+    <PackageReference Include="Microsoft.SqlServer.TransactSql.ScriptDom" Version="150.4897.1" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Vetris.Report.Core\Vetris.Report.Core.csproj" />
+    <ProjectReference Include="..\Vetris.Report.DataAccess\Vetris.Report.DataAccess.csproj" />
+  </ItemGroup>
+</Project>

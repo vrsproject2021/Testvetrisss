@@ -1,0 +1,7 @@
+F:\VetChoice\VETRIS_SOL_TFS\VETRIS\VETRIS.API.Core\bin\Debug\VETRIS.API.Core.dll
+F:\VetChoice\VETRIS_SOL_TFS\VETRIS\VETRIS.API.Core\bin\Debug\VETRIS.API.Core.pdb
+F:\VetChoice\VETRIS_SOL_TFS\VETRIS\VETRIS.API.Core\bin\Debug\VETRIS.DAL.dll
+F:\VetChoice\VETRIS_SOL_TFS\VETRIS\VETRIS.API.Core\bin\Debug\VETRIS.DAL.pdb
+F:\VetChoice\VETRIS_SOL_TFS\VETRIS\VETRIS.API.Core\obj\Debug\VETRIS.API.Core.csprojResolveAssemblyReference.cache
+F:\VetChoice\VETRIS_SOL_TFS\VETRIS\VETRIS.API.Core\obj\Debug\VETRIS.API.Core.dll
+F:\VetChoice\VETRIS_SOL_TFS\VETRIS\VETRIS.API.Core\obj\Debug\VETRIS.API.Core.pdb

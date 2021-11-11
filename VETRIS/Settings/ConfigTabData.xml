@@ -1,0 +1,7 @@
+﻿<SiteMap>
+  <item ID="GS" Text="General Settings"  Look-LeftIconUrl="" SelectedLook-LeftIconUrl=""/>
+  <item ID ="OT" Text="Operation Time"  Look-LeftIconUrl="" SelectedLook-LeftIconUrl=""/>
+  <item ID ="SANH" Text="Services (Normal Hrs.)"  Look-LeftIconUrl="" SelectedLook-LeftIconUrl=""/>
+  <item ID ="SAAH" Text="Services (After Hrs.)"  Look-LeftIconUrl="" SelectedLook-LeftIconUrl=""/>
+  <item ID ="DASH" Text="Dashboard"  Look-LeftIconUrl="" SelectedLook-LeftIconUrl=""/>
+</SiteMap>

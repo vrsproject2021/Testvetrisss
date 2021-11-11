@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30501.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Setup", "ERADPacsViewerMediatorInstaller\ERADPacsViewerMediatorInstaller.vdproj", "{CF885784-16FB-4E77-AB40-36077F23567E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{95685649-EF40-4745-A824-7A8498761F4A}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.pdb = .nuget\NuGet.pdb
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DicomWin", "..\DicomWin\DicomWin\DicomWin.csproj", "{52F8A9E3-9FDC-4119-9567-4B29C81A5A3F}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 3
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://203.163.231.92:8080/tfs/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = ERADPacsViewerMediatorInstaller\\ERADPacsViewerMediatorInstaller.vdproj
+		SccProjectName1 = ERADPacsViewerMediatorInstaller
+		SccLocalPath1 = ERADPacsViewerMediatorInstaller
+		SccProjectUniqueName2 = ..\\DicomWin\\DicomWin\\DicomWin.csproj
+		SccProjectName2 = ../DicomWin/DicomWin
+		SccLocalPath2 = ..\\DicomWin\\DicomWin
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CF885784-16FB-4E77-AB40-36077F23567E}.Debug|Any CPU.ActiveCfg = Debug
+		{CF885784-16FB-4E77-AB40-36077F23567E}.Debug|Any CPU.Build.0 = Debug
+		{CF885784-16FB-4E77-AB40-36077F23567E}.Release|Any CPU.ActiveCfg = Release
+		{CF885784-16FB-4E77-AB40-36077F23567E}.Release|Any CPU.Build.0 = Release
+		{52F8A9E3-9FDC-4119-9567-4B29C81A5A3F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52F8A9E3-9FDC-4119-9567-4B29C81A5A3F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52F8A9E3-9FDC-4119-9567-4B29C81A5A3F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52F8A9E3-9FDC-4119-9567-4B29C81A5A3F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

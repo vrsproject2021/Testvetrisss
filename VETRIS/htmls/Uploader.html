@@ -1,0 +1,38 @@
+﻿<div style="width:650px;background-color:rgba(255, 255, 255, 1);border:5px solid rgba(217, 217, 217, 1);border-collapse:collapse;border-radius:5px;box-shadow: 0px 0px 10px #333;">
+    <table  border="0"  id="tblUpload" style="width:100%;">
+	    <tr>
+            <td style="width:100%;background-color:#fff;text-align:center;">
+             <iframe id="iframeUpload" src="#" frameborder="0" scrolling="no" style="padding-top:0px; padding-bottom:0px; width:100%;"></iframe>
+            </td>
+	    </tr>
+    </table>
+</div>
+
+<script type="text/javascript">
+    var objiframeUpload = document.getElementById("iframeUpload");
+    objiframeUpload.src = GsLaunchURL;
+    function getUploadFrameDocument(aID) {
+        var rv = null;
+        var frame = getElement(aID);
+        // if contentDocument exists, W3C 
+
+        //compliant(e.g.Mozilla)
+        if (frame.contentDocument)
+            rv = frame.contentDocument;
+        else // bad Internet Explorer  ;)
+            rv = document.frames[aID].document;
+        return rv;
+    }
+    function adjustUploadFrameHeight()
+     {
+        var frame = getElement("iframeUpload");
+        var frameDoc = getUploadFrameDocument("iframeUpload");
+        var ht = frameDoc.body.offsetHeight;
+        frame.style.height = (ht -10).toString()  + "px";
+    }
+    function getElement(aID) {
+
+        return (document.getElementById) ? document.getElementById(aID) : document.all[aID];
+    }
+</script>
+

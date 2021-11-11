@@ -1,0 +1,93 @@
+﻿body {margin:5px 5px 5px 5px;font-family: Verdana,Tahoma,Arial, Helvetica, sans-serif;}
+.hdr{width:100%;background-color:#000;color:#eee;font-size:14px;line-height:30px;font-weight:bold;text-align:center;padding:10px;}
+.ftr{width:100%;background-color:#000;color:#eee;font-size:8px;line-height:18px;font-weight:normal;text-align:center;}
+
+.clr{clear:right;}
+.sep
+{
+	width:20px;float:left;
+}
+#desc{width:99%;background-color:#EDDA74;color:#000;font-size:11px;line-height:20px;font-weight:normal;padding:5px;border-radius:5px;}
+	#desc .blocks
+	{
+		background-color:#F3DAA9;border-radius:5px;padding:5px;float:left;
+	}
+	#desc .blocks .hdrsL
+	{
+		background-color:#F9EEE2;padding:5px;float:left;border:1px solid #000;font-weight:bold;
+	}
+	#desc .blocks .hdrsR
+	{
+		background-color:#F9EEE2;padding:5px;font-weight:bold;border:1px solid #000;
+	}
+	#desc .blocks .itmFL
+	{
+		padding:5px;float:left;border:1px solid #000;font-weight:normal;
+	}
+	#desc .blocks .itmFR
+	{
+		padding:5px;font-weight:normal;border:1px solid #000;
+	}
+	#desc .blocks .itmL
+	{
+		padding:5px;float:left;border-left:1px solid #000;border-right:1px solid #000;border-bottom:1px solid #000;font-weight:normal;
+	}
+	#desc .blocks .itmR
+	{
+		padding:5px;font-weight:normal;border-left:1px solid #000 !important;border-right:1px solid #000;border-bottom:1px solid #000;
+	}
+
+#req{background-color:#FFF8C6;color:#000;font-size:11px;line-height:20px;font-weight:normal;border-radius:5px;padding:5px;float:left;margin-top:10px;}
+    #req .grdhdr
+    {
+        background-color:  #E5E6E4;
+        color:#726E6D;
+        padding: 2px;
+        float: left;
+        border: 1px solid #bbb;
+        font-weight: bold;
+    }	
+    #req .grdcell
+	{
+		padding:2px;float:left;font-weight:normal;color:#726E6D;background-color:#fff;
+	}
+    #req .grdcellAlt
+	{
+		padding:2px;float:left;font-weight:normal;color:#726E6D;background-color:#eee;
+	}
+#res{background-color:#E0FFFF ;color:#000;font-size:11px;line-height:20px;font-weight:normal;border-radius:5px;padding:5px;float:right;margin-top:10px;margin-right:5px;}
+
+#btnSubmit
+{
+	width :100px;font-weight:bold;color:  #7E3817 ;background-color:#eee;border:1px solid #7E3817;height:30px;cursor:pointer;
+}  
+#btnSearch
+{
+	width :100px;font-weight:bold;color:  #7E3817 ;background-color:#eee;border:1px solid #7E3817;height:30px;cursor:pointer;
+}  
+#btnRefresh
+{
+	width :100px;font-weight:bold;color:  #7E3817 ;background-color:#eee;border:1px solid #7E3817;height:30px;cursor:pointer;
+} 
+#btnBack
+{
+	font-weight:bold;color:#000 ;cursor:pointer; border:none;
+}
+.ddlStyle
+{
+    color: #000;
+    font-size: 11px;
+    font-weight: normal;
+    border-radius: 5px;
+}
+.txtStyle
+{
+    color: #000;
+    font-size: 11px;
+    font-weight: normal;
+    border-radius: 5px;
+}
+#from{background-color:#FFF8C6;color:#000;font-size:11px;line-height:20px;font-weight:normal;border-radius:5px;padding:5px;float:left;margin-top:10px;}
+#till{background-color:#FFF8C6 ;color:#000;font-size:11px;line-height:20px;font-weight:normal;border-radius:5px;padding:5px;float:left;margin-top:10px;margin-right:5px;}
+#prop{background-color:#FFF8C6 ;color:#000;font-size:11px;line-height:20px;font-weight:normal;border-radius:5px;padding:5px;float:left;margin-top:10px;margin-right:5px;}
+#logmsg{background-color:#FFF8C6 ;color:#000;font-size:11px;line-height:20px;font-weight:normal;border-radius:5px;padding:5px;float:left;margin-top:10px;margin-right:5px;}

@@ -1,0 +1,49 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <style type="text/css">
+        .body
+        {
+            margin: 0 0 0 0px;
+            background:#766a6a;
+        }
+
+        .body, td, th
+        {
+            font-family: Tahoma,Arial,Verdana,Helvetica, sans-serif;
+            color: #eee;
+            text-decoration: none;
+        }
+        .xlLink
+        {
+            font-family: Tahoma,Arial,Verdana,Helvetica, sans-serif;
+            color:blue;
+            text-decoration: none;
+            cursor:pointer;
+        }
+    </style>
+</head>
+<body class="body">
+    <table style="width: 100%; border-collapse: separate; border-spacing: 2px;">
+        <tr>
+            <td style="width: 100%; text-align: center; font-weight: bold; font-size: larger;height:250px;vertical-align:bottom;">Report File Generated Successfully
+            </td>
+        </tr>
+        <tr>
+            <td style="text-align: center; font-weight: bold; font-size:medium;">
+                <span id="flLink"></span> to download the excel file
+            </td>
+        </tr>
+        <tr>
+            <td style="text-align: center; font-weight: bold; font-size: larger;">&nbsp;
+            </td>
+        </tr>
+    </table>
+</body>
+<script type="text/javascript">
+    var dlURL = "../../" + parent.GsLaunchURL.replace("htmls/", "");
+    document.getElementById("flLink").innerHTML = "<a href='" + dlURL + "'  class='xlLink' target='blank'>Click Here</a>";
+    
+</script>
+</html>

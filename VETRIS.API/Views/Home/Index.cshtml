@@ -1,0 +1,72 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <title>VETRIS API</title>
+    <link rel="shortcut icon" type="image/x-icon" href="../favicon.ico" />
+    <script src="~/Scripts/jquery-1.8.2.min.js"></script>
+
+    <style type="text/css">
+        #body
+        {
+            margin: 0 0 0 0px;
+        }
+
+        #body, td, th
+        {
+            font-family: Verdana,Tahoma,Arial, Helvetica, sans-serif;
+            font-size: 11px;
+            color: #000000;
+            font-weight: normal;
+            text-decoration: none;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div id="body">
+        <table style="width: 100%; border-collapse: separate; border-spacing: 5px;">
+            <tr>
+                <td style="background-color: #000; color: #eee; font-size: 14px; font-weight: bold; text-align: center; padding: 10px;" colspan="2">VETRIS API
+                </td>
+            </tr>
+            <tr>
+                <td style="background-color: #bbb; color: #000; font-size: 12px; font-weight: bold; text-align: center; padding: 10px;" colspan="2">DICOM ROUTER
+                </td>
+            </tr>
+            <tr>
+                <td style="width: 100%; padding-left: 2px;"><a href="@Url.Action("DicomRouterLatestVersion", "Functionalities")" style="text-decoration:none;color:blue;font-weight:bold;">Get Latest Version</a></td>
+            </tr>
+            <tr>
+                <td style="padding-left: 2px;"><a href="@Url.Action("DicomRouterInstitutionDetails", "Functionalities")"  style="text-decoration:none;color:blue;font-weight:bold;">Get Institution Details</a></td>
+            </tr>
+             <tr>
+                <td style="padding-left: 2px;"><a href="@Url.Action("DicomRouterCheckSession", "Functionalities")"  style="text-decoration:none;color:blue;font-weight:bold;">Check File Import Session</a></td>
+            </tr>
+            <tr>
+                <td style="padding-left: 2px;"><a href="@Url.Action("DicomRouterUpdateOnlineStatus", "Functionalities")"  style="text-decoration:none;color:blue;font-weight:bold;">Update Online Status</a></td>
+            </tr>
+             <tr>
+                <td style="padding-left: 2px;"><a href="@Url.Action("DicomRouterCreateUploadNotification", "Functionalities")"  style="text-decoration:none;color:blue;font-weight:bold;">Create Upload Notification</a></td>
+            </tr>
+            <tr>
+                <td style="padding-left: 2px;"><a href="@Url.Action("DicomRouterCreateDownloadNotification", "Functionalities")"  style="text-decoration:none;color:blue;font-weight:bold;">Create Download Notification</a></td>
+            </tr>
+            <tr>
+                <td style="padding-left: 2px;"><a href="@Url.Action("DicomRouterCreateFileTransferNotification", "Functionalities")"  style="text-decoration:none;color:blue;font-weight:bold;">Create File Transfer Notification</a></td>
+            </tr>
+            <tr>
+                <td style="padding-left: 2px;"><a href="@Url.Action("DicomRouterCreateFileTransferOTNotification", "Functionalities")"  style="text-decoration:none;color:blue;font-weight:bold;">Create File Transfer Overtime Notification</a></td>
+            </tr>
+            <tr>
+                <td style="background-color: #bbb; color: #000; font-size: 12px; font-weight: bold; text-align: center; padding: 10px;" colspan="2">CHAT
+                </td>
+            </tr>
+            <tr>
+                <td style="padding-left: 2px;"><a href="@Url.Action("ChatUserDetails", "Functionalities")"  style="text-decoration:none;color:blue;font-weight:bold;">User Details</a></td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>

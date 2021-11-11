@@ -1,0 +1,17 @@
+F:\VetChoice\VETRIS_SOL_TFS\VETRIS\DicomWin\DicomWin\bin\Debug\DicomWin.exe.config
+F:\VetChoice\VETRIS_SOL_TFS\VETRIS\DicomWin\DicomWin\bin\Debug\dcmwin.cfg
+F:\VetChoice\VETRIS_SOL_TFS\VETRIS\DicomWin\DicomWin\bin\Debug\DicomWin.exe
+F:\VetChoice\VETRIS_SOL_TFS\VETRIS\DicomWin\DicomWin\bin\Debug\DicomWin.pdb
+F:\VetChoice\VETRIS_SOL_TFS\VETRIS\DicomWin\DicomWin\obj\Debug\DicomWin.Form1.resources
+F:\VetChoice\VETRIS_SOL_TFS\VETRIS\DicomWin\DicomWin\obj\Debug\DicomWin.Properties.Resources.resources
+F:\VetChoice\VETRIS_SOL_TFS\VETRIS\DicomWin\DicomWin\obj\Debug\DicomWin.csproj.GenerateResource.Cache
+F:\VetChoice\VETRIS_SOL_TFS\VETRIS\DicomWin\DicomWin\obj\Debug\DicomWin.exe
+F:\VetChoice\VETRIS_SOL_TFS\VETRIS\DicomWin\DicomWin\obj\Debug\DicomWin.pdb
+F:\VetChoice\VETRIS_SOL_TFS\VETRIS\DicomWin\DicomWin\bin\Debug\log4net.config
+F:\VetChoice\VETRIS_SOL_TFS\VETRIS\DicomWin\DicomWin\bin\Debug\log4net.dll
+F:\VetChoice\VETRIS_SOL_TFS\VETRIS\DicomWin\DicomWin\bin\Debug\Newtonsoft.Json.dll
+F:\VetChoice\VETRIS_SOL_TFS\VETRIS\DicomWin\DicomWin\bin\Debug\log4net.xml
+F:\VetChoice\VETRIS_SOL_TFS\VETRIS\DicomWin\DicomWin\bin\Debug\Newtonsoft.Json.xml
+F:\VetChoice\VETRIS_SOL_TFS\VETRIS\DicomWin\DicomWin\obj\Debug\DicomWin.csproj.CoreCompileInputs.cache
+F:\VetChoice\VETRIS_SOL_TFS\VETRIS\DicomWin\DicomWin\obj\Debug\DicomWin.csproj.CopyComplete
+F:\VetChoice\VETRIS_SOL_TFS\VETRIS\DicomWin\DicomWin\obj\Debug\DicomWin.csprojAssemblyReference.cache

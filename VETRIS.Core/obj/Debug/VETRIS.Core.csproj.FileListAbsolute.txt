@@ -1,0 +1,50 @@
+E:\VetChoice\VETRIS_TFS_SOL\VETRIS\VETRIS.Core\obj\Debug\VETRIS.Core.csprojResolveAssemblyReference.cache
+E:\VetChoice\VETRIS_TFS_SOL\VETRIS\VETRIS.Core\bin\Debug\VETRIS.Core.dll
+E:\VetChoice\VETRIS_TFS_SOL\VETRIS\VETRIS.Core\bin\Debug\VETRIS.Core.pdb
+E:\VetChoice\VETRIS_TFS_SOL\VETRIS\VETRIS.Core\bin\Debug\VETRIS.DAL.dll
+E:\VetChoice\VETRIS_TFS_SOL\VETRIS\VETRIS.Core\bin\Debug\VETRIS.DAL.pdb
+E:\VetChoice\VETRIS_TFS_SOL\VETRIS\VETRIS.Core\obj\Debug\VETRIS.Core.dll
+E:\VetChoice\VETRIS_TFS_SOL\VETRIS\VETRIS.Core\obj\Debug\VETRIS.Core.pdb
+E:\VetChoice\VETRIS_SOL_TFS\VETRIS\VETRIS.Core\bin\Debug\VETRIS.Core.dll
+E:\VetChoice\VETRIS_SOL_TFS\VETRIS\VETRIS.Core\bin\Debug\VETRIS.Core.pdb
+E:\VetChoice\VETRIS_SOL_TFS\VETRIS\VETRIS.Core\bin\Debug\VETRIS.DAL.dll
+E:\VetChoice\VETRIS_SOL_TFS\VETRIS\VETRIS.Core\bin\Debug\VETRIS.DAL.pdb
+E:\VetChoice\VETRIS_SOL_TFS\VETRIS\VETRIS.Core\obj\Debug\VETRIS.Core.csprojResolveAssemblyReference.cache
+E:\VetChoice\VETRIS_SOL_TFS\VETRIS\VETRIS.Core\obj\Debug\VETRIS.Core.dll
+E:\VetChoice\VETRIS_SOL_TFS\VETRIS\VETRIS.Core\obj\Debug\VETRIS.Core.pdb
+F:\VetChoice\VETRIS_SOL_TFS\VETRIS\VETRIS.Core\bin\Debug\VETRIS.Core.dll
+F:\VetChoice\VETRIS_SOL_TFS\VETRIS\VETRIS.Core\bin\Debug\VETRIS.Core.pdb
+F:\VetChoice\VETRIS_SOL_TFS\VETRIS\VETRIS.Core\bin\Debug\System.Net.Http.Formatting.dll
+F:\VetChoice\VETRIS_SOL_TFS\VETRIS\VETRIS.Core\bin\Debug\VETRIS.DAL.dll
+F:\VetChoice\VETRIS_SOL_TFS\VETRIS\VETRIS.Core\bin\Debug\VETRIS.DAL.pdb
+F:\VetChoice\VETRIS_SOL_TFS\VETRIS\VETRIS.Core\bin\Debug\System.Net.Http.Formatting.xml
+F:\VetChoice\VETRIS_SOL_TFS\VETRIS\VETRIS.Core\obj\Debug\VETRIS.Core.csprojResolveAssemblyReference.cache
+F:\VetChoice\VETRIS_SOL_TFS\VETRIS\VETRIS.Core\obj\Debug\VETRIS.Core.dll
+F:\VetChoice\VETRIS_SOL_TFS\VETRIS\VETRIS.Core\obj\Debug\VETRIS.Core.pdb
+F:\VetChoice\CodeBackups\VETRIS_SOURCE_CODE\VETRIS.Core\bin\Debug\VETRIS.Core.dll
+F:\VetChoice\CodeBackups\VETRIS_SOURCE_CODE\VETRIS.Core\bin\Debug\VETRIS.Core.pdb
+F:\VetChoice\CodeBackups\VETRIS_SOURCE_CODE\VETRIS.Core\bin\Debug\System.Net.Http.Formatting.dll
+F:\VetChoice\CodeBackups\VETRIS_SOURCE_CODE\VETRIS.Core\bin\Debug\VETRIS.DAL.dll
+F:\VetChoice\CodeBackups\VETRIS_SOURCE_CODE\VETRIS.Core\bin\Debug\VETRIS.DAL.pdb
+F:\VetChoice\CodeBackups\VETRIS_SOURCE_CODE\VETRIS.Core\bin\Debug\System.Net.Http.Formatting.xml
+F:\VetChoice\CodeBackups\VETRIS_SOURCE_CODE\VETRIS.Core\obj\Debug\VETRIS.Core.csprojResolveAssemblyReference.cache
+F:\VetChoice\CodeBackups\VETRIS_SOURCE_CODE\VETRIS.Core\obj\Debug\VETRIS.Core.dll
+F:\VetChoice\CodeBackups\VETRIS_SOURCE_CODE\VETRIS.Core\obj\Debug\VETRIS.Core.pdb
+F:\VetChoice\VETRIS_1.0\Main\VETRIS.Core\bin\Debug\VETRIS.Core.dll
+F:\VetChoice\VETRIS_1.0\Main\VETRIS.Core\bin\Debug\VETRIS.Core.pdb
+F:\VetChoice\VETRIS_1.0\Main\VETRIS.Core\bin\Debug\System.Net.Http.Formatting.dll
+F:\VetChoice\VETRIS_1.0\Main\VETRIS.Core\bin\Debug\VETRIS.DAL.dll
+F:\VetChoice\VETRIS_1.0\Main\VETRIS.Core\bin\Debug\VETRIS.DAL.pdb
+F:\VetChoice\VETRIS_1.0\Main\VETRIS.Core\bin\Debug\System.Net.Http.Formatting.xml
+F:\VetChoice\VETRIS_1.0\Main\VETRIS.Core\obj\Debug\VETRIS.Core.csprojResolveAssemblyReference.cache
+F:\VetChoice\VETRIS_1.0\Main\VETRIS.Core\obj\Debug\VETRIS.Core.dll
+F:\VetChoice\VETRIS_1.0\Main\VETRIS.Core\obj\Debug\VETRIS.Core.pdb
+D:\VETRIS WORK\VETRIS_SOURCE_CODE-master_485\VETRIS_SOURCE_CODE-master\VETRIS.Core\bin\Debug\VETRIS.Core.dll
+D:\VETRIS WORK\VETRIS_SOURCE_CODE-master_485\VETRIS_SOURCE_CODE-master\VETRIS.Core\bin\Debug\VETRIS.Core.pdb
+D:\VETRIS WORK\VETRIS_SOURCE_CODE-master_485\VETRIS_SOURCE_CODE-master\VETRIS.Core\bin\Debug\VETRIS.DAL.dll
+D:\VETRIS WORK\VETRIS_SOURCE_CODE-master_485\VETRIS_SOURCE_CODE-master\VETRIS.Core\bin\Debug\VETRIS.DAL.pdb
+D:\VETRIS WORK\VETRIS_SOURCE_CODE-master_485\VETRIS_SOURCE_CODE-master\VETRIS.Core\obj\Debug\VETRIS.Core.csproj.AssemblyReference.cache
+D:\VETRIS WORK\VETRIS_SOURCE_CODE-master_485\VETRIS_SOURCE_CODE-master\VETRIS.Core\obj\Debug\VETRIS.Core.csproj.CoreCompileInputs.cache
+D:\VETRIS WORK\VETRIS_SOURCE_CODE-master_485\VETRIS_SOURCE_CODE-master\VETRIS.Core\obj\Debug\VETRIS.Core.csproj.CopyComplete
+D:\VETRIS WORK\VETRIS_SOURCE_CODE-master_485\VETRIS_SOURCE_CODE-master\VETRIS.Core\obj\Debug\VETRIS.Core.dll
+D:\VETRIS WORK\VETRIS_SOURCE_CODE-master_485\VETRIS_SOURCE_CODE-master\VETRIS.Core\obj\Debug\VETRIS.Core.pdb

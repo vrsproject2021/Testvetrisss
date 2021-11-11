@@ -1,0 +1,27 @@
+﻿body {
+    background:#fff url(../../images/loginBG.jpg) no-repeat;
+    color:#282828;
+    background-size:cover;
+}
+.loginForm{
+    width: 35%; 
+    margin-top: 10%; 
+    margin-right: 3%; 
+    margin-left: auto; 
+    border: 5px solid #2185d0; 
+    padding: 10px; 
+    background: rgba(255,255,255, 0.6);
+}
+
+
+.footerPartArea{background: #2185d0;color: #fff;padding: 10px 0px;text-align: center;position: absolute;bottom: 0;width: 100%;}
+.footerPartArea .buttonColor{color:#fff; text-decoration:underline;}
+
+
+@media (max-width: 767px) {
+    .loginForm {
+        width: 96%;
+        margin: 10% auto 0;
+        background: rgba(255,255,255, 0.9);
+    }
+}

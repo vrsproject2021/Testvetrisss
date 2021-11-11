@@ -1,0 +1,5 @@
+{
+    "apiendpoint":"http://localhost:48623",
+    "basepath":"/reportclient",
+    "vetris":"http://localhost/VETRIS"
+}

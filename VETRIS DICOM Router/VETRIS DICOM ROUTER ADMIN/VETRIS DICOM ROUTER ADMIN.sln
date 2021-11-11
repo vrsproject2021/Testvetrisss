@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VETRIS DICOM ROUTER ADMIN", "VETRIS DICOM ROUTER ADMIN.csproj", "{152D41C7-BB8F-4993-9C4B-EC21C4FB8F62}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DICOMReceiverService", "..\DICOMReceiverService\DICOMReceiverService.csproj", "{3CBC7D9D-F7B5-4344-A588-0579E1F47DF3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DICOMSenderService", "..\DICOMSenderService\DICOMSenderService.csproj", "{D4B42C97-C73D-469B-8F1C-6668D4C923EE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VETRISRouter.Core", "..\VETRISRouter.Core\VETRISRouter.Core.csproj", "{54675B1B-24F2-4E25-9A22-E60BC40A5665}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 5
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://203.163.231.92:8080/tfs/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = VETRIS\u0020DICOM\u0020ROUTER\u0020ADMIN.csproj
+		SccLocalPath1 = .
+		SccProjectUniqueName2 = ..\\DICOMReceiverService\\DICOMReceiverService.csproj
+		SccProjectName2 = ../DICOMReceiverService
+		SccLocalPath2 = ..\\DICOMReceiverService
+		SccProjectUniqueName3 = ..\\DICOMSenderService\\DICOMSenderService.csproj
+		SccProjectName3 = ../DICOMSenderService
+		SccLocalPath3 = ..\\DICOMSenderService
+		SccProjectUniqueName4 = ..\\VETRISRouter.Core\\VETRISRouter.Core.csproj
+		SccProjectName4 = ../VETRISRouter.Core
+		SccLocalPath4 = ..\\VETRISRouter.Core
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{152D41C7-BB8F-4993-9C4B-EC21C4FB8F62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{152D41C7-BB8F-4993-9C4B-EC21C4FB8F62}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{152D41C7-BB8F-4993-9C4B-EC21C4FB8F62}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{152D41C7-BB8F-4993-9C4B-EC21C4FB8F62}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3CBC7D9D-F7B5-4344-A588-0579E1F47DF3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3CBC7D9D-F7B5-4344-A588-0579E1F47DF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3CBC7D9D-F7B5-4344-A588-0579E1F47DF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3CBC7D9D-F7B5-4344-A588-0579E1F47DF3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D4B42C97-C73D-469B-8F1C-6668D4C923EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4B42C97-C73D-469B-8F1C-6668D4C923EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4B42C97-C73D-469B-8F1C-6668D4C923EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4B42C97-C73D-469B-8F1C-6668D4C923EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{54675B1B-24F2-4E25-9A22-E60BC40A5665}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54675B1B-24F2-4E25-9A22-E60BC40A5665}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54675B1B-24F2-4E25-9A22-E60BC40A5665}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54675B1B-24F2-4E25-9A22-E60BC40A5665}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

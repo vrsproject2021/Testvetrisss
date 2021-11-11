@@ -1,0 +1,263 @@
+﻿.Grid { color:#333;padding:0 0 0 0;border-radius:5px;width:auto;}
+.GridHeader { width:auto;height:30px;line-height:25px;padding:0 5px;background-color:#ddd;color:#454545;}
+.GridHeaderDlg { background-color: navy;font-weight: bold;height: 35px;vertical-align: middle;color: white;}
+.GridHeaderText {margin:2px 6px 0 2px;color:#333;}
+.GridHeaderTextBox {margin:0 6px 0 0;color:#333;}
+.GridHeaderTextDlg {margin:0 6px 0 0;color:#FFF;}
+
+.GridDataHelp { height:250px;border:1px solid #bbb;border-top:none;border-bottom:solid 1px #bbb;} 
+.GridData1 { height:70px;border:1px solid #bbb;border-top:none;border-bottom:solid 1px #bbb;} 
+.GridData2 { height:105px;border:1px solid #bbb;border-top:none;border-bottom:solid 1px #bbb;} 
+.GridData3 { height:90px;border:1px solid #bbb;border-top:none;border-bottom:solid 1px #bbb;} 
+.GridData4 { height:170px;border:1px solid #bbb;border-top:none;border-bottom:solid 1px #bbb;} 
+.GridData5 { height:190px;border:1px solid #bbb;border-top:none;border-bottom:solid 1px #bbb;} 
+.GridData5_1 { height:235px;border:1px solid #bbb;border-top:none;border-bottom:solid 1px #bbb;} 
+.GridData6 { height:138px;border:1px solid #bbb;border-top:none;border-bottom:solid 1px #bbb;}
+.GridData6_1 { height:245px;border:1px solid #bbb;border-top:none;border-bottom:solid 1px #bbb;} 
+.GridData7 { height:151px;border:1px solid #bbb;border-top:none;border-bottom:solid 1px #bbb;}
+.GridData7_1 { height:280px;border:1px solid #bbb;border-top:none;border-bottom:solid 1px #bbb;} 
+.GridData8 { height:290px;border:1px solid #bbb;border-top:none;border-bottom:solid 1px #bbb;}
+.GridData8_1 { height:315px;border:1px solid #bbb;border-top:none;border-bottom:solid 1px #bbb;}
+.GridData9 { height:207px;border:1px solid #bbb;border-top:none;border-bottom:solid 1px #bbb;} 
+.GridData9_1 { height:350px;border:1px solid #bbb;border-top:none;border-bottom:solid 1px #bbb;}
+.GridData10 { height:230px;border:1px solid #bbb;border-top:none;border-bottom:solid 1px #bbb;} 
+.GridData10_1 { height:375px;border:1px solid #bbb;border-top:none;border-bottom:solid 1px #bbb;} 
+.GridData11 { height:420px;border:1px solid #bbb;border-top:none;border-bottom:solid 1px #bbb;} 
+.GridData12 { height:276px;border:1px solid #bbb;border-top:none;border-bottom:solid 1px #bbb;} 
+.GridData12_1 { height:455px;border:1px solid #bbb;border-top:none;border-bottom:solid 1px #bbb;} 
+.GridData13 { height:495px;border:1px solid #bbb;border-top:none;border-bottom:solid 1px #bbb;} 
+.GridData14 { height:525px;border:1px solid #bbb;border-top:none;border-bottom:solid 1px #bbb;} 
+.GridData15 { height:360px;border:1px solid #bbb;border-top:none;border-bottom:solid 1px #bbb;} 
+.GridData15_1 { height:490px;border:1px solid #bbb;border-top:none;border-bottom:solid 1px #bbb;} 
+.GridData16 { height:595px;border:1px solid #bbb;border-top:none;border-bottom:solid 1px #bbb;} 
+.GridData17 { height:610px;border:1px solid #bbb;border-top:none;border-bottom:solid 1px #bbb;} 
+.GridData18 { height:685px;border:1px solid #bbb;border-top:none;border-bottom:solid 1px #bbb;} 
+.GridData20 { height:830px;border:1px solid #bbb;border-top:none;border-bottom:solid 1px #bbb;} 
+.GridData22 { height:715px;border:1px solid #bbb;border-top:none;border-bottom:solid 1px #bbb;} 
+.GridData25 { height:840px;border:1px solid #bbb;border-top:none;border-bottom:solid 1px #bbb;} 
+.HeadingCell {width:auto;line-height:25px;padding:5px 5px 5px 5px;background-color:#1e77bb;color:#fff;font-size:12px; font-weight:bold;border-right:1px groove #eee;border-top:1px solid #eee;}
+.HeadingCell1 {width:auto;height:30px;line-height:30px;padding:5px 5px 5px 5px;background-color:#82cdea;font-weight:bold;color:#333;font-size:12px;border-right:1px groove #bbb;border-top:1px solid #bbb;color:#061b36;}
+.HeadingCell2 {width:auto;height:15px;line-height:25px;background:url("../images/blue_bg.gif");background-repeat:repeat ;font-weight:normal;color:#333;font-size:12px;border-right:1px groove #bbb;border-top:1px solid #bbb;}
+.HeadingCell3 {width:auto;height:30px;line-height:30px;padding:5px 5px 5px 5px;background-color:#82cdea;font-weight:bold;color:#333;font-size:12px;border:1px solid #6593cf; }
+
+.HeadingRow td.FirstHeadingCell { background-position:-1px -32px; }
+.HeadingRow td.LastHeadingCell {border-right:none; }
+.HeadingCellText { cursor:default; }
+.HeadingCellHover { background-position:0 -60px; }
+	.HeadingCellHover td.FirstHeadingCell { background-position:-1px -60px; }
+
+.HeadingCellActive { background-position:0 -90px; }
+	.HeadingCellActive .HeadingCellText { display:block;margin:1px -1px -1px 1px; }
+	.HeadingCellActive img { display:block;margin:1px -1px -1px 1px; }
+
+.Row { background:#fff;cursor:default;font-size:12px;line-height:25px; }
+.Row1 { background:#fff;cursor:default;font-size:12px;line-height:35px;}
+
+.Row td.DataCell 
+{ padding: 3px; padding-top: 2px; padding-bottom: 1px; border-bottom: 1px solid #bbb; font-family:tahoma,arial,verdana;font-size:12px;line-height:25px; font-weight:normal;color:#000;cursor:pointer;} 
+.Row1 td.DataCell 
+{ padding: 3px; padding-top: 2px; padding-bottom: 1px; border-bottom: 1px solid #bbb; font-size:12px;line-height:30px; font-weight:normal;color:#000;cursor:pointer;} 
+.Row1 td.DataCell
+{ border-bottom: 1px solid #bbb;border-right: 1px solid #bbb; font-weight:normal;} 
+.Row1 td.FirstDataCell1
+{ border-bottom: 1px solid #bbb;border-right: 1px solid #bbb; font-weight:normal;padding: 3px; padding-top: 0px; padding-bottom: 0px;} 
+.Row1 td.DataCell1
+{ border-bottom: 1px solid #bbb;border-right: 1px solid #bbb; font-weight:normal;} 
+
+.Row td.DataCell2
+{width:auto;padding: 3px; padding-top: 2px; padding-bottom: 1px; border-bottom: 1px solid #bbb; font-family:tahoma,arial,verdana;font-size:12px;line-height:25px; font-weight:normal;color:#000;cursor:pointer;} 
+
+.Row td.LastDataCell 
+{ border-right:none; } 
+.Row1 td.LastDataCell1
+{ border-right:none; border-bottom: 1px solid #bbb;} 
+.Row td.LastDataCell2
+{ border-right:none; } 
+
+.AltRow { background-color:#F9F9F9;cursor:default;font-size:12px; line-height:25px;}
+.AltRow td.DataCell 
+{ padding: 3px; padding-top: 2px; padding-bottom: 1px;border-bottom: 1px solid #bbb;font-family:tahoma,arial,verdana;font-size:12px;line-height:25px;font-weight:normal;color:#000;cursor:pointer;} 
+.AltRow td.DataCell2
+{ width:auto;padding: 3px; padding-top: 2px; padding-bottom: 1px;border-bottom: 1px solid #bbb;font-family:tahoma,arial,verdana;font-size:12px;line-height:20px;font-weight:normal;color:#000;cursor:pointer;} 
+
+.AltRow td.LastDataCell2
+{ border-right:none;} 
+
+.AltRow1 { background-color:#EFF7FF;cursor:default;font-size:12px; line-height:35px;}
+.AltRow1 td.DataCell
+{ border-bottom: 1px solid #bbb;border-right: 1px solid #bbb;font-weight:normal;color:#000;} 
+.AltRow1 td.LastDataCell
+{ border-right:none; padding: 0px;} 
+.AltRow1 td.DataCell1 
+{ border-bottom: 1px solid #bbb;border-right: 1px solid #bbb;font-weight:normal;color:#000;} 
+.AltRow1 td.LastDataCell1
+{ border-right:none; border-bottom: 1px solid #bbb;} 
+
+.HoverRow { cursor:pointer;font-size:12px; line-height:25px;}
+.HoverRow td.FirstDataCell { background:#e6e6e6;font-size:12px;line-height:25px;color:#000;padding:0 3px;padding-top: 2px;padding-bottom: 1px;border-bottom: 1px solid #585880;cursor:pointer;}
+.HoverRow td.DataCell { background:#e6e6e6;font-size:12px;font-family:tahoma,arial,verdana;line-height:25px;color:#000;padding:0 3px;padding-top: 2px;padding-bottom: 1px;border-bottom: 1px solid #585880;cursor:pointer;}
+
+.HoverRowRed { cursor:pointer;font-size:12px; line-height:25px;}
+.HoverRowRed td.FirstDataCell { background:#e6e6e6;font-size:12px;line-height:25px;color:red;padding:0 3px;padding-top: 2px;padding-bottom: 1px;border-bottom: 1px solid #585880;cursor:pointer;}
+.HoverRowRed td.DataCell { background:#e6e6e6;font-size:12px;font-family:tahoma,arial,verdana;line-height:25px;color:red;padding:0 3px;padding-top: 2px;padding-bottom: 1px;border-bottom: 1px solid #585880;cursor:pointer;}
+
+.HoverRow td.FirstDataCell2 { width:auto;background:#e6e6e6;font-size:12px;line-height:25px;color:#000;padding:0 3px;padding-top: 2px;padding-bottom: 1px;border-bottom: 1px solid #585880;cursor:pointer;}
+.HoverRow td.DataCell2 { width:auto;background:#e6e6e6;font-size:12px;font-family:tahoma,arial,verdana;line-height:20px;color:#000;padding:0 3px;padding-top: 2px;padding-bottom: 1px;border-bottom: 1px solid #585880;cursor:pointer;}
+
+.HoverRow1 { cursor:pointer;font-size:12px; line-height:30px;}
+.HoverRow1 td.FirstDataCell { background:#ffdba3;color:#000;padding:0 3px;padding-top: 2px;padding-bottom: 1px;border-bottom: 1px solid #585880;cursor:pointer;}
+.HoverRow1 td.DataCell { background:#ffdba3;font-size:12px;color:#000;padding:0 3px;padding-top: 2px;padding-bottom: 1px;border-bottom: 1px solid #585880;cursor:pointer;}
+
+
+.SelectedRow {cursor:default;font-size:12px;line-height:25px;}
+.SelectedRow td.DataCell 
+{background-color:#ffdba3; padding: 2px; 
+ padding-left: 3px;padding-top: 2px;padding-bottom: 1px;font-family:tahoma,arial,verdana;cursor:pointer;
+ color: #000;border-bottom: 1px solid #585880;font-size:12px;line-height:25px;}
+.SelectedRow td.DataCell2
+{width:auto;background-color:#e6e6e6;background-image: url("../images/gridimages/grid_selected_item_bg.gif"); padding: 2px; 
+ padding-left: 3px;padding-top: 2px;padding-bottom: 1px;font-family:tahoma,arial,verdana;cursor:pointer;
+ color: #000;border-bottom: 1px solid #585880;font-size:12px;line-height:25px;font-weight:bold;}
+
+.SelectedRowRed {cursor:default;font-size:12px;line-height:25px;}
+.SelectedRowRed td.DataCell 
+{background-color:#ffdba3; padding: 2px; 
+ padding-left: 3px;padding-top: 2px;padding-bottom: 1px;font-family:tahoma,arial,verdana;cursor:pointer;
+ color: red;border-bottom: 1px solid #585880;font-size:12px;line-height:25px;}
+
+.SelectedRow1 {cursor:default;font-size:12px;line-height:30px;}
+.SelectedRow1 td.DataCell 
+{background-color:#e6e6e6;background-image: url("../images/gridimages/grid_selected_item_bg.gif"); padding: 2px; 
+ padding-left: 3px;padding-top: 2px;padding-bottom: 1px;font-family:tahoma,arial,verdana;cursor:pointer;
+ color: #000;border-bottom: 1px solid #585880;font-size:12px;line-height:30px;font-weight:bold;}
+ 
+.SortedDataCell { background:#f5f5f5; } 
+.SliderPopup { background:#eee;border:1px solid #999;color:#333;font:12px Tahoma,Arial,Verdana,Helvetica,sans-serif; }
+.GroupHeading
+{ color: #706F91; background-color: #FFFFFF; font-family: ,Arial,,Verdana; font-weight: bold;font-size:12px; border-bottom: 2px solid #A5A4BD; padding-top: 10px; padding-bottom: 3px;}
+.GroupByCell
+{cursor: pointer;}
+.GroupByText
+{color: #FFFFFF; font-size:12px;font-weight: bold; padding-left: 5px;}
+
+.GroupNotification
+{
+	font-weight:bold;
+}
+/* Pager area */
+.GridFooter { padding:5px 5px 5px 5px;background-color:#1e77bb;height:25px;line-height:25px;padding-left:5px;width:100%;}
+.GridFooterText { cursor:default;font-size:12px;Font-family:Tahoma,Arial,Verdana;padding-right:8px;color:#fff; }
+
+.RedRow 
+{color: red;background:#fff;cursor:default;font-size:12px;line-height:25px;}
+.RedRow td.DataCell 
+{ padding: 3px; padding-top: 2px; padding-bottom: 1px; border-bottom: 1px solid #bbb; font-family:tahoma,arial,verdana;font-size:12px;line-height:25px; font-weight:normal;color:red;cursor:pointer;} 
+.RedRow td.dat 
+{font-family: arial, tahoma, verdana;
+font-size:12px;font-weight:bold;color: red;border-bottom: 1px solid #bbb;border-right-style: none;
+	border-right-color: inherit;
+	border-right-width: 0px;
+}
+.BoldRow 
+{cursor: default;}
+.BoldRow td.DataCell 
+{padding-top: 2px; padding-bottom: 1px; border-bottom: 1px solid #bbb; font-family:arial, tahoma, verdana;font-weight:bold;font-size:12px;padding-left: 3px;padding-right: 3px;
+} 
+.BoldRow td.dat 
+{font-family: arial, tahoma, verdana;
+font-size:12px;font-weight:bold;border-bottom: 1px solid #bbb;border-right-style: none;
+	border-right-color: inherit;
+	border-right-width: 0px;
+}
+.HoverRow2 { cursor:pointer;font-size:12px; line-height:25px;}
+.HoverRow2 td.FirstDataCell { background:#e6e6e6;font-size:12px;font-weight:bold;line-height:25px;color:#000;padding:0 3px;padding-top: 2px;padding-bottom: 1px;border-bottom: 1px solid #585880;cursor:pointer;}
+.HoverRow2 td.DataCell { background:#e6e6e6;font-size:12px;font-family:tahoma,arial,verdana;font-weight:bold;line-height:25px;color:#000;padding:0 3px;padding-top: 2px;padding-bottom: 1px;border-bottom: 1px solid #585880;cursor:pointer;}
+.BlackRow
+/*Scroll Area*/
+.ScrollBar
+{
+  background-image: url(../images/scroller/scroller_bg.gif); 
+}
+
+.ScrollGrip
+{
+  background-image: url(../images/scroller/scroll_gripBg.gif); 
+}
+
+.ScrollPopup
+{
+  background-color: #FFFFFF; 
+  border: 1px solid #666666;
+  border-right-width: 2px;
+  border-bottom-width: 2px;
+  height: 23px;
+}
+
+.HeadingCellClass 
+{
+  PADDING-RIGHT: 10px;
+  PADDING-LEFT: 4px;
+  HEIGHT: 20px;
+  FONT-WEIGHT: bold;
+ COLOR:#000;
+}
+
+.DataCell 
+{
+  BORDER-RIGHT: #ddecfe 1px solid;
+  PADDING-RIGHT: 4px;
+  FONT-SIZE: 10px;
+  CURSOR: default;
+  FONT-FAMILY: verdana
+}
+.DataCell2
+{
+  BORDER-RIGHT: #ddecfe 1px solid;
+  PADDING-RIGHT: 4px;
+  FONT-SIZE: 10px;
+  CURSOR: default;
+  FONT-FAMILY: verdana;
+	width:auto;
+}
+#refLink
+{font-weight:normal;color:#8B31C7;text-decoration:underline; }
+.GridTextBox{
+    background: none;
+    border-radius: 0;
+    height: 25px;
+    border: none;
+    border-bottom: 1px solid #2A3F54;
+    box-shadow: none;
+    font-size: 12px;
+    color: #111;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.GridTextBoxReadOnly{
+    background: none;
+    border-radius: 0;
+    height: 25px;
+    border: none;
+    border-bottom: 1px solid #2A3F54;
+    box-shadow: none;
+    font-size: 12px;
+    color: #111;
+    font-family: 'Source Sans Pro', sans-serif;
+	background-color:rgba(224, 242, 255, 1);
+}
+.GridDDL{
+    background: none;
+    border-radius: 0;
+    height: 25px;
+    border: none;
+    border-bottom: 1px solid #2A3F54;
+    box-shadow: none;
+    font-size: 12px;
+    color: #111;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.btn.btn_grd{
+	padding:4px 8px;
+	margin:3px 0;
+	font-size:14px;
+    border-radius:3px;
+}

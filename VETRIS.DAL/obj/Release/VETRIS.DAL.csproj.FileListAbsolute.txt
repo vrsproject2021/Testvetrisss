@@ -1,0 +1,10 @@
+G:\VetChoice\VETRIS.DAL\bin\Release\VETRIS.DAL.dll
+G:\VetChoice\VETRIS.DAL\bin\Release\VETRIS.DAL.pdb
+G:\VetChoice\VETRIS.DAL\obj\Release\VETRIS.DAL.csprojResolveAssemblyReference.cache
+G:\VetChoice\VETRIS.DAL\obj\Release\VETRIS.DAL.dll
+G:\VetChoice\VETRIS.DAL\obj\Release\VETRIS.DAL.pdb
+E:\VetChoice\VETRIS.DAL\bin\Release\VETRIS.DAL.dll
+E:\VetChoice\VETRIS.DAL\bin\Release\VETRIS.DAL.pdb
+E:\VetChoice\VETRIS.DAL\obj\Release\VETRIS.DAL.csprojResolveAssemblyReference.cache
+E:\VetChoice\VETRIS.DAL\obj\Release\VETRIS.DAL.dll
+E:\VetChoice\VETRIS.DAL\obj\Release\VETRIS.DAL.pdb

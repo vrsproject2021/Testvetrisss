@@ -1,0 +1,31 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup Label="Globals">
+    <SccProjectName>SAK</SccProjectName>
+    <SccProvider>SAK</SccProvider>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccLocalPath>SAK</SccLocalPath>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Session\SessionBase.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="8.0.1" />
+    <PackageReference Include="JetBrains.Annotations" Version="2020.1.0" />
+    <PackageReference Include="log4net" Version="2.0.11" />
+    <PackageReference Include="Microsoft.AspNetCore.Hosting" Version="2.2.7" />
+    <PackageReference Include="Microsoft.Extensions.Configuration" Version="3.1.9" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" Version="3.1.9" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="3.1.9" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="3.1.8" />
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+    <PackageReference Include="Nito.AsyncEx.Context" Version="5.1.0" />
+    <PackageReference Include="TimeZoneConverter" Version="3.3.0" />
+  </ItemGroup>
+</Project>

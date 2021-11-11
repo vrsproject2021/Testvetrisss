@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VETRISAccountsScheduler", "VETRISAccountsScheduler.csproj", "{2B2507B1-26B0-424D-B5C7-4C8A836C901B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VETRISAccountsScheduler.DAL", "..\VETRISAccountsScheduler.DAL\VETRISAccountsScheduler.DAL.csproj", "{D4B5CCE6-1680-4EE3-85CD-008758050105}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VETRISAccountsScheduler.Core", "..\VETRISAccountsScheduler.Core\VETRISAccountsScheduler.Core.csproj", "{97921655-AF68-4AE8-8FF7-F662AC379002}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QBVetrisLib", "..\QBVetrisLib\QBVetrisLib.csproj", "{84A5ABF1-6F86-48ED-9CA0-B114775F9711}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2B2507B1-26B0-424D-B5C7-4C8A836C901B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B2507B1-26B0-424D-B5C7-4C8A836C901B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B2507B1-26B0-424D-B5C7-4C8A836C901B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B2507B1-26B0-424D-B5C7-4C8A836C901B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D4B5CCE6-1680-4EE3-85CD-008758050105}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4B5CCE6-1680-4EE3-85CD-008758050105}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4B5CCE6-1680-4EE3-85CD-008758050105}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4B5CCE6-1680-4EE3-85CD-008758050105}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97921655-AF68-4AE8-8FF7-F662AC379002}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97921655-AF68-4AE8-8FF7-F662AC379002}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97921655-AF68-4AE8-8FF7-F662AC379002}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97921655-AF68-4AE8-8FF7-F662AC379002}.Release|Any CPU.Build.0 = Release|Any CPU
+		{84A5ABF1-6F86-48ED-9CA0-B114775F9711}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84A5ABF1-6F86-48ED-9CA0-B114775F9711}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84A5ABF1-6F86-48ED-9CA0-B114775F9711}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84A5ABF1-6F86-48ED-9CA0-B114775F9711}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

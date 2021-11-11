@@ -1,0 +1,19 @@
+<?xml version="1.0" standalone="yes"?>
+<DocumentElement>
+  <Logs>
+    <service_id>2</service_id>
+    <service_name>Dicom Sending Service</service_name>
+    <is_error>Y</is_error>
+    <log_date>05Feb2020 15:56:54</log_date>
+    <log_message>doUpdateOnlineStatus() - Exception: Object reference not set to an instance of an object.</log_message>
+    <sent_to_vetris>N</sent_to_vetris>
+  </Logs>
+  <Logs>
+    <service_id>2</service_id>
+    <service_name>Dicom Sending Service</service_name>
+    <is_error>Y</is_error>
+    <log_date>05Feb2020 15:57:50</log_date>
+    <log_message>doUpdateOnlineStatus() - Exception: Object reference not set to an instance of an object.</log_message>
+    <sent_to_vetris>N</sent_to_vetris>
+  </Logs>
+</DocumentElement>

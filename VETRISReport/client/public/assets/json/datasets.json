@@ -1,0 +1,34 @@
+[
+  {
+    "id": "d898867a-40ce-46fa-8b28-7b3a31321b35",
+    "name": "All Studies",
+    "objectName": "study_view_all",
+    "objectType": "View",
+    "lastModified":"Mon, Feb 01, 2021 13:48:50", 
+    "user": "Kevin Doyle"
+  },
+  {
+    "id": "327d7b05-4a99-4155-9471-eb4d960f1108",
+    "name": "Open Studies",
+    "objectName": "study_view_open",
+    "objectType": "View",
+    "lastModified":"Mon, Feb 01, 2021 13:48:50", 
+    "user": "Kevin Doyle"
+  },
+  {
+    "id": "91b8494a-577d-4a5d-8069-4d40cf3100cc",
+    "name": "Finalized Studies",
+    "objectName": "study_view_final",
+    "objectType": "View",
+    "lastModified":"Mon, Feb 01, 2021 13:48:50", 
+    "user": "Kevin Doyle"
+  },
+  {
+    "id": "2d8dba27-79a9-4095-8732-0e51aebd7464",
+    "name": "Invoices",
+    "objectName": "invoice_statement_view",
+    "objectType": "View",
+    "lastModified":"Mon, Feb 01, 2021 13:48:50", 
+    "user": "Kevin Doyle"
+  }
+]

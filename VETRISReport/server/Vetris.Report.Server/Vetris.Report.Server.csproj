@@ -1,0 +1,50 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup Label="Globals">
+    <SccProjectName>SAK</SccProjectName>
+    <SccProvider>SAK</SccProvider>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccLocalPath>SAK</SccLocalPath>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UserSecretsId>3aab2a1b-1393-4a21-a835-10b96d6cd3ec</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="wwwroot\temp\**" />
+    <Content Remove="wwwroot\temp\**" />
+    <EmbeddedResource Remove="wwwroot\temp\**" />
+    <None Remove="wwwroot\temp\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Remove="log4net.config" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="log4net.config" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="8.0.1" />
+    <PackageReference Include="AutoWrapper.Core" Version="4.3.1" />
+    <PackageReference Include="log4net" Version="2.0.11" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="3.1.16" />
+    <PackageReference Include="ReportViewerCore.NETCore" Version="15.1.13" />
+    <PackageReference Include="System.CodeDom" Version="4.7.0" />
+    <PackageReference Include="System.Drawing.Common" Version="5.0.2" />
+    <PackageReference Include="System.Text.Encoding.CodePages" Version="5.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Vetris.Report.Core\Vetris.Report.Core.csproj" />
+    <ProjectReference Include="..\Vetris.Report.DataAccess\Vetris.Report.DataAccess.csproj" />
+    <ProjectReference Include="..\Vetris.Report.Service\Vetris.Report.Service.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\" />
+  </ItemGroup>
+</Project>
